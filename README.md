@@ -25,9 +25,8 @@
 }
 ```
 
-<!--[DOC.md]-->
 
-[docs]
+[docs] / [DOCS.md]
 
 ## Description
 
