@@ -10,7 +10,7 @@
 
 # NLDC
 
-Nonlinear Dynamics and Chaos
+Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering
 
 ![cover]
 
