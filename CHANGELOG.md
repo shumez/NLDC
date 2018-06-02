@@ -1,10 +1,10 @@
 <!--
 @Author: shumez
-@Date:
-@Project: 
+@Date:   2018-06-02 11:10:61
+@Project: NLDC
 @Filename: CHANGELOG.md
 @Last modified by:   shumez
-@Last modified time:
+@Last modified time: 2018-06-02 13:30:51
 -->
 
 
@@ -15,7 +15,7 @@
 
 - [ ]
 
-## [0.0.1] -
+## [0.0.1] - 
 
 
 

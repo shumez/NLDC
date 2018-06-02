@@ -1,16 +1,16 @@
 <!--
-@Author: shume
+@Author: shumez
 @Date:   2018-06-02 11:10:62
-@Project: proj
+@Project: NLDC
 @Filename: README.md
-@Last modified by:   shume
+@Last modified by:   shumez
 @Last modified time: 2018-06-02 11:11:32
 -->
 
 
 # NLDC
 
-Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering
+> Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering
 
 ![cover]
 
@@ -25,7 +25,7 @@ Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, 
 }
 ```
 
-[DOC.md]
+<!--[DOC.md]-->
 
 [docs]
 
