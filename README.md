@@ -71,7 +71,7 @@
 
 <!-- ------------------------------- -->
 [shumez]: shumez
-[DOC.md]: DOC.md
+[DOCS.md]: docs/DOCS.md
 [docs]: docs/
 [CHANGELOG.md]: CHANGELOG.md
 [LICENSE.md]: LICENSE.md
