@@ -21,6 +21,7 @@
             - [Nonautonomous Systems](#Nonautonomous-Systems)
             - [Why Are Nonlinear Problems So Hard?](#Why-Are-Nonlinear-Problems-So-Hard?)
         - [1.3 A Dynamical View of the World](#1.3-A-Dynamical-View-of-the-World)
+
 - Part I One-Dimensional Flows
     - [2 Flows on the line](../c02)
         - [2.0 Introduction](#2.0-Introduction)
@@ -39,8 +40,16 @@
         - [2.6 Impossibility of Oscillations](#2.6-Impossibility-of-Oscillations)
             - [Mechanical Analog: Overdamped Systems](#Mechanical-Analog:-Overdamped-Systems)
         - [2.7 Potentials](#2.7-Potentials)
-
-
+        
+    - [3 Bifurcations](#3-Bifurcations)
+        - [3.0 Introduction](#3.0-Introduction)
+        - [3.1 Saddle-Node Bifurcation](#3.1-Saddle-Node-Bifurcation)
+        - [3.2 Transcritical Bifurcation](#3.2-Transcritical-Bifurcation)
+        - [3.3 Laser Threshold](#3.3-Laser-Threshold)
+        - [3.4 Pitchfolk Bifurcation](#3.4-Pitchfolk-Bifurcation)
+        - [3.5 Overdamped Bead on a Rotating Hoop](#3.5-Overdamped-Bead-on-a-Rotating-Hoop)
+        - [3.6 Imperfect Bifurcation and Catastrophes](#3.6-Imperfect-Bifurcation-and-Catastrophes)
+        - [3.7 Insect Outbreak](#3.7-Insect-Outbreak)
 ```
 NLDC
 ├── CHANGELOG.md
@@ -49,6 +58,8 @@ NLDC
 ├── c01
 │   └── note.ipynb
 ├── c02
+│   └── note.ipynb
+├── c03
 │   └── note.ipynb
 └── docs
     ├── DOCS.md
