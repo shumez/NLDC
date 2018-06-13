@@ -41,15 +41,49 @@
             - [Mechanical Analog: Overdamped Systems](#Mechanical-Analog:-Overdamped-Systems)
         - [2.7 Potentials](#2.7-Potentials)
         
-    - [3 Bifurcations](#3-Bifurcations)
+    - [3 Bifurcations](../c03)
         - [3.0 Introduction](#3.0-Introduction)
         - [3.1 Saddle-Node Bifurcation](#3.1-Saddle-Node-Bifurcation)
+            - [Graphical Conventions](#Graphical-Conventions)
+            - [Terminology](#Terminology)
+            - [Exmaple 3.1.1](#Exmaple-3.1.1)
+            - [Normal Forms](#Normal-Forms)
         - [3.2 Transcritical Bifurcation](#3.2-Transcritical-Bifurcation)
+            - [Example 3.2.1](#Example-3.2.1)
+            - [Example 3.2.2](#Example-3.2.2)
         - [3.3 Laser Threshold](#3.3-Laser-Threshold)
+            - [Physical Background](#Physical-Background)
+            - [Model](#Model)
         - [3.4 Pitchfolk Bifurcation](#3.4-Pitchfolk-Bifurcation)
+            - [Supercritical Pitchfork Bifurcation](#Supercritical-Pitchfork-Bifurcation)
+            - [Exmaple 3.4.1](#Exmaple-3.4.1)
+            - [Example 3.4.2](#Example-3.4.2)
+            - [Subcritical Pitchfork Bifurcation](#Subcritical-Pitchfork-Bifurcation)
+            - [Terminology](#Terminology)
         - [3.5 Overdamped Bead on a Rotating Hoop](#3.5-Overdamped-Bead-on-a-Rotating-Hoop)
+            - [Analysis of the First-Order System](#Analysis-of-the-First-Order-System)
+            - [Dimensional Analysis and Scaling](#Dimensional-Analysis-and-Scaling)
+            - [A Paradox](#A-Paradox)
+            - [Phase Plane Analysis](#Phase-Plane-Analysis)
+            - [A Singular Limit](#A-Singular-Limit)
         - [3.6 Imperfect Bifurcation and Catastrophes](#3.6-Imperfect-Bifurcation-and-Catastrophes)
+            - [Bead on a Tilted Wire](#Bead-on-a-Tilted-Wire)
         - [3.7 Insect Outbreak](#3.7-Insect-Outbreak)
+            - [Model](#Model)
+            - [Dimentionless Formulation](#Dimentionless-Formulation)
+            - [Analysis of Fixed Points](#Analysis-of-Fixed-Points)
+            - [Calculating the Bifurcation Curves](#Calculating-the-Bifurcation-Curves)
+            - [Comparison with Observation](#Comparison-with-Observation)
+
+    - [4 Flows on the Circle](../c04)
+        - [4.0 Introduction](#4.0-Introduction)
+        - [4.1 Examples and Definitions](#4.1-Examples-and-Definitions)
+            - [Example 4.1.1](#Example-4.1.1)
+            - [Example 4.1.2](#Example-4.1.2)
+        - [4.2 Uniform Oscillator](#4.2-Uniform-Oscillator)
+
+
+
 ```
 NLDC
 ├── CHANGELOG.md
@@ -60,6 +94,12 @@ NLDC
 ├── c02
 │   └── note.ipynb
 ├── c03
+│   ├── code
+│   ├── img
+│   └── note.ipynb
+├── c04
+│   └── note.ipynb
+├── c05
 │   └── note.ipynb
 └── docs
     ├── DOCS.md
