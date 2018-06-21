@@ -40,7 +40,7 @@
         - [2.6 Impossibility of Oscillations](#2.6-Impossibility-of-Oscillations)
             - [Mechanical Analog: Overdamped Systems](#Mechanical-Analog:-Overdamped-Systems)
         - [2.7 Potentials](#2.7-Potentials)
-        
+
     - [3 Bifurcations](../c03)
         - [3.0 Introduction](#3.0-Introduction)
         - [3.1 Saddle-Node Bifurcation](#3.1-Saddle-Node-Bifurcation)
@@ -98,6 +98,8 @@ NLDC
 │   ├── img
 │   └── note.ipynb
 ├── c04
+│   ├── code
+│   │   └── slope.py
 │   └── note.ipynb
 ├── c05
 │   └── note.ipynb
