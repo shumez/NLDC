@@ -10,17 +10,19 @@
 
 # NLDC
 
-> Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering
+> Nonlinear Dynamics and Chaos:
+> With Applications to Physics, Biology, Chemistry, and Engineering
 
 ![cover]
 
+
 ```
-@book{strogatz2018nonlinear,
+@book{strogatz2014nonlinear,
   title     =   {Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering},
   author    =   {Strogatz, S.H.},
-  isbn      =   {9780429961113},
+  isbn      =   {9780813349114},
   url       =   {https://books.google.co.jp/books?id=A0paDwAAQBAJ},
-  year      =   {2018},
+  year      =   {2014},
   publisher =   {CRC Press}
 }
 ```
@@ -70,7 +72,7 @@
 
 
 <!-- ------------------------------- -->
-[shumez]: shumez
+[shumez]: @shumez
 [DOCS.md]: docs/DOCS.md
 [docs]: docs/
 [CHANGELOG.md]: CHANGELOG.md
