@@ -10,7 +10,7 @@
 
 # Chapter 06
 
-[![fig_6_1_3](img/fig_6_1_3.png)](img/)
+[![fig_6_4_7](img/fig_6_4_7.png)](img/)
 
 
 [docs] / [DOCS.md]
