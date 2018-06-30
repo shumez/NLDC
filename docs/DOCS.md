@@ -81,7 +81,57 @@
             - [Example 4.1.1](#Example-4.1.1)
             - [Example 4.1.2](#Example-4.1.2)
         - [4.2 Uniform Oscillator](#4.2-Uniform-Oscillator)
+            - [Example 4.2.1](#Example-4.2.1)
+        - [4.3 Nonuniform Oscillator](#4.3-Nonuniform-Oscillator)
+            - [Example 4.3.1](#Example-4.3.1)
+            - [Oscillation Period](#Oscillation-Period)
+            - [Ghosts and Bottlenecks](#Ghosts-and-Bottlenecks)
+            - [Example 4.3.2](#Example-4.3.2)
+        - [4.4 Overdamped Pendulum](#4.4-Overdamped-Pendulum)
+        - [4.5 Fireflies](#4.5-Fireflies)
+            - [Model](#Model)
+        - [4.6 Superconducting Josephson Junctions](#4.6-Superconducting-Josephson-Junctions)
+            - [Physical Background](#Physical-Background)
+            - [The Josephson Relations](#The-Josephson-Relations)
+            - [Equivalent Circuit and Pendulum Analog](#Equivalent-Circuit-and-Pendulum-Analog)
+            - [Typical Parameter Values](#Typical-Parameter-Values)
+            - [Dimensionless Formulation](#Dimensionless-Formulation)
+            - [Example 4.6.1](#Example-4.6.1)
 
+    - [5 Linear Systems](../c05)
+        - [5.0 Introduction](#5.0-Introduction)
+        - [5.1 Definitions and Exmaples](#5.1-Definitions-and-Exmaples)
+            - [Example 5.1.1](#Example-5.1.1)
+            - [Stability Language](#Stability-Language)
+        - [5.2 Classification of Linear Systems](#5.2-Classification-of-Linear-Systems)
+            - [Example 5.2.1](#Example-5.2.1)
+            - [Example 5.2.2](#Example-5.2.2)
+            - [Classification of Fixed Points](#Classification-of-Fixed-Points)
+            - [Example 5.2.6](#Example-5.2.6)
+            - [Example 5.2.7](#Example-5.2.7)
+        - [5.3 Love Affairs](#5.3-Love-Affairs)
+            - [Example 5.3.1](#Example-5.3.1)
+
+    - [6 Phase Plane](../c06)
+        - [6.0 Introduction](#6.0-Introduction)
+        - [6.1 Phase Portraits](#6.1-Phase-Portraits)
+             - [Numerical Computaion of Phase Portraits](#Numerical-Computaion-of-Phase-Portraits)
+             - [Example 6.1.1](#Example-6.1.1)
+        - [6.2 Exsitence, Uniquness, and Topological Consequences](#6.2-Exsitence,-Uniquness,-and-Topological-Consequences)
+            - [Existence and Uniquness Theorem](#Existence-and-Uniquness-Theorem)
+        - [6.3 Fixed Points and Linearization](#6.3-Fixed-Points-and-Linearization)
+            - [Linearized System](#Linearized-System)
+            - [The Effect of Small Nonlinear Terms](#The-Effect-of-Small-Nonlinear-Terms)
+            - [Example 6.3.1](#Example-6.3.1)
+            - [Example 6.3.2](#Example-6.3.2)
+            - [Robust cases](#Robust-cases)
+            - [Hyperbolic Fixed Points, Topological Equivalence, and Structural Stability](#Hyperbolic-Fixed-Points,-Topological-Equivalence,-and-Structural-Stability)
+        - [6.4 Rabbits versus Sheep](#6.4-Rabbits-versus-Sheep)
+        - [6.5 Conservative Systems](#6.5-Conservative-Systems)
+            - [Example 6.5.1](#Example-6.5.1)
+            - [Example 6.5.2](#Example-6.5.2)
+            - [Example 6.5.3](#Example-6.5.3)
+            - [Nonlinear Centers](#Nonlinear-Centers)
 
 
 ```
@@ -92,16 +142,33 @@ NLDC
 ├── c01
 │   └── note.ipynb
 ├── c02
+│   ├── README.md
+│   ├── img
 │   └── note.ipynb
 ├── c03
+│   ├── README.md
 │   ├── code
 │   ├── img
 │   └── note.ipynb
 ├── c04
+│   ├── README.md
 │   ├── code
-│   │   └── slope.py
+│   ├── img
 │   └── note.ipynb
 ├── c05
+│   ├── README.md
+│   ├── code
+│   ├── img
+│   └── note.ipynb
+├── c06
+│   ├── README.md
+│   ├── code
+│   ├── img
+│   └── note.ipynb
+├── c07
+│   ├── README.md
+│   ├── code
+│   ├── img
 │   └── note.ipynb
 └── docs
     ├── DOCS.md
