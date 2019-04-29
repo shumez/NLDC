@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/01
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:6
-Modified: 	2019-04-29 19:37:54
+Modified: 	2019-04-29 19:42:1
 -----
 Copyright (c) 2019 shumez
 -->
@@ -102,8 +102,8 @@ $$
 ## 01.03. A Dynamical View of the World
 
 
-|           | n=1 | n=2 | n≥3 | n >>1 | Continuum |
-|-----------|-----|-----|-----|-------|-----------|
+|           | $n=1$ | $n=2$ | $n\ge3$ | $n\gg1$ | Continuum |
+|----------:|:-----:|:-----:|:-------:|:-------:|:---------:|
 | Linear    | **Growth, decay, equilibrilium** | **Oscillation** | | **Collective phenomenon** | **Waves & pattern** |
 | Nonlinear |     |     | **Chaos** | | **Spatio-temporal complexity** |
 
