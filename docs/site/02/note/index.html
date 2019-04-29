@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>02 - NLDC</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "02";
+    var mkdocs_page_input_path = "02/note.md";
+    var mkdocs_page_url = "/02/note/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> NLDC</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../01/note/">01</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">02</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#toc">ToC</a></li>
+    
+
+    <li class="toctree-l2"><a href="#0200_introduction">02.00. Introduction</a></li>
+    
+
+    <li class="toctree-l2"><a href="#0201_a_geometric_way_of_thinking">02.01. A Geometric way of Thinking</a></li>
+    
+
+    <li class="toctree-l2"><a href="#0202_fixed_points_and_stability">02.02. Fixed Points and Stability</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#example_221">Example 2.2.1</a></li>
+        
+            <li><a class="toctree-l3" href="#example_222">Example 2.2.2</a></li>
+        
+            <li><a class="toctree-l3" href="#example_223">Example 2.2.3</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#0203_population_growth">02.03. Population Growth</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#020301_critique_of_the_logistic_model">02.03.01. Critique of the Logistic Model</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#0204_linear_stability_analysis">02.04. Linear Stability Analysis</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#example_241">Example 2.4.1</a></li>
+        
+            <li><a class="toctree-l3" href="#example_242">Example 2.4.2</a></li>
+        
+            <li><a class="toctree-l3" href="#example_243">Example 2.4.3</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#0205_existence_and_uniquness">02.05. Existence and Uniquness</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#example_251">Example 2.5.1</a></li>
+        
+            <li><a class="toctree-l3" href="#example_252">Example 2.5.2</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#0206_impossibility_of_oscillations">02.06. Impossibility of Oscillations</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#020601_mechanical_analog_overdamped_systems">02.06.01. Mechanical Analog: Overdamped Systems</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#0207_potentials">02.07. Potentials</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#example_271">Example 2.7.1</a></li>
+        
+            <li><a class="toctree-l3" href="#example_272">Example 2.7.2</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#0208_solving_equations_on_the_computer">02.08. Solving Equations on the Computer</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#020801_eulers_method">02.08.01. Euler's Method</a></li>
+        
+            <li><a class="toctree-l3" href="#example_281">Example 2.8.1</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">NLDC</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>02</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <!--
+Filename:   note.md
+Project:    /Users/shume/Developer/NLDC/02
+Author:     shumez <https://github.com/shumez>
+Created:    2019-04-29 19:27:2
+Modified:   2019-04-29 21:19:10
+-----
+Copyright (c) 2019 shumez
+-->
+
+<h1 id="02_flows_on_the_line">02. Flows on the line<a class="headerlink" href="#02_flows_on_the_line" title="Permanent link">&para;</a></h1>
+<h2 id="toc">ToC<a class="headerlink" href="#toc" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="#0200_introduction">02.00. Introduction</a></li>
+<li><a href="#0201_a_geometric_way_of_thinking">02.01. A Geometric way of Thinking</a></li>
+<li><a href="#0202_fixed_points_and_stability">02.02. Fixed Points and Stability</a><ul>
+<li><a href="#example_221">Example 2.2.1</a></li>
+<li><a href="#example_222">Example 2.2.2</a></li>
+<li><a href="#example_223">Example 2.2.3</a></li>
+</ul>
+</li>
+<li><a href="#0203_population_growth">02.03. Population Growth</a><ul>
+<li><a href="#020301_critique_of_the_logistic_model">02.03.01. Critique of the Logistic Model</a></li>
+</ul>
+</li>
+<li><a href="#0204_linear_stability_analysis">02.04. Linear Stability Analysis</a><ul>
+<li><a href="#example_241">Example 2.4.1</a></li>
+</ul>
+</li>
+<li><a href="#0205_existence_and_uniquness">02.05. Existence and Uniquness</a><ul>
+<li><a href="#example_251">Example 2.5.1</a></li>
+<li><a href="#example_252">Example 2.5.2</a></li>
+</ul>
+</li>
+<li><a href="#0206_impossibility_of_oscillations">02.06. Impossibility of Oscillations</a><ul>
+<li><a href="#020601_mechanical_analog_overdamped_systems">02.06.01. Mechanical Analog: Overdamped Systems</a></li>
+</ul>
+</li>
+<li><a href="#0207_potentials">02.07. Potentials</a><ul>
+<li><a href="#example_271">Example 2.7.1</a></li>
+</ul>
+</li>
+<li><a href="#0208_solving_equations_on_the_computer">02.08. Solving Equations on the Computer</a><ul>
+<li><a href="#020801_eulers_method">02.08.01. Euler's Method</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="0200_introduction">02.00. Introduction<a class="headerlink" href="#0200_introduction" title="Permanent link">&para;</a></h2>
+<p>
+<script type="math/tex; mode=display">
+    \begin{align*}
+        \dot{x}_1 &= f_1(x_1, \cdots, x_n) \\
+        & \vdots \\
+        \dot{x}_n &= f_n(x_1, \cdots, x_n)
+    \end{align*}
+</script>
+</p>
+<p>
+<script type="math/tex">n = 1</script>
+</p>
+<p>
+<script type="math/tex; mode=display"> \dot{x} = f(x) </script>
+</p>
+<p><strong>one-dimensinal</strong> / <strong>first-order system</strong></p>
+<h2 id="0201_a_geometric_way_of_thinking">02.01. A Geometric way of Thinking<a class="headerlink" href="#0201_a_geometric_way_of_thinking" title="Permanent link">&para;</a></h2>
+<p>
+<script type="math/tex; mode=display"> \dot{x} = \sin x \tag{1} </script>
+</p>
+<p>
+<script type="math/tex; mode=display"> dt = \frac{dx}{\sin x} </script>
+</p>
+<p>implies: 
+<script type="math/tex; mode=display">
+    \begin{align*}
+        t &= \int \csc x \, \mathrm{d}x \\
+        &= - \ln |\csc x + \cot x | + C
+    \end{align*}
+</script>
+</p>
+<p>
+<script type="math/tex; mode=display"> t = \ln \Big|\frac{\csc x_0 + \cot x_0}{\csc x + \cot x}\Big| \tag{2} </script>
+</p>
+<p><a href="img/fig_02_01_01.png"><img alt="fig.2.1.1" src="img/fig_02_01_01.png" /></a></p>
+<p><strong>fixed point</strong>
+- <strong>stable</strong>
+- <strong>unstable</strong></p>
+<h2 id="0202_fixed_points_and_stability">02.02. Fixed Points and Stability<a class="headerlink" href="#0202_fixed_points_and_stability" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>phase point</strong>: imaginary point</li>
+<li><strong>phase portrait</strong>: qualitatively different trajectories</li>
+</ul>
+<h3 id="example_221">Example 2.2.1<a class="headerlink" href="#example_221" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex; mode=display"> \dot{x} = x^2 - 1 </script>
+</p>
+<p><a href="img/fig_02_02_02.png"><img alt="Fig.2.2.2" src="img/fig_02_02_02.png" /></a></p>
+<h3 id="example_222">Example 2.2.2<a class="headerlink" href="#example_222" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex; mode=display"> -V_0 + RI + \frac{Q}{C} = 0 </script>
+<script type="math/tex; mode=display"> \dot{Q} = I </script>
+</p>
+<p>
+<script type="math/tex; mode=display"> - V_0 + R\dot{Q} + \frac{Q}{C} = 0 </script>
+<script type="math/tex; mode=display"> \dot{Q} = f(Q) = \frac{V_0}{R} - \frac{Q}{RC} </script>
+</p>
+<h3 id="example_223">Example 2.2.3<a class="headerlink" href="#example_223" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex; mode=display"> \dot{x} = x - \cos{x} </script>
+</p>
+<h2 id="0203_population_growth">02.03. Population Growth<a class="headerlink" href="#0203_population_growth" title="Permanent link">&para;</a></h2>
+<p>
+<script type="math/tex; mode=display"> \dot{N} = rN </script>
+</p>
+<p>
+<script type="math/tex; mode=display"> N(t) = N_0e^rt </script>
+</p>
+<p><strong>Carrying capacity</strong>: <script type="math/tex">K</script>
+</p>
+<p><strong>Logistic eq</strong>
+<script type="math/tex; mode=display"> \dot{N} = rN \Big(1 - \frac{N}{K} \Big) </script>
+</p>
+<h3 id="020301_critique_of_the_logistic_model">02.03.01. Critique of the Logistic Model<a class="headerlink" href="#020301_critique_of_the_logistic_model" title="Permanent link">&para;</a></h3>
+<h2 id="0204_linear_stability_analysis">02.04. Linear Stability Analysis<a class="headerlink" href="#0204_linear_stability_analysis" title="Permanent link">&para;</a></h2>
+<p>Let 
+- <script type="math/tex"> x\ast </script>: fixed point</p>
+<p>
+<script type="math/tex; mode=display"> \eta(t) = x(t) - x\ast </script>
+</p>
+<p>
+<script type="math/tex; mode=display"> \dot{\eta} = \frac{d}{dt} (x - x\ast) = \dot{x} </script>
+</p>
+<ul>
+<li>
+<script type="math/tex"> x\ast </script>: constant</li>
+</ul>
+<p>
+<script type="math/tex; mode=display"> \dot{\eta} = \dot{x} = f(x) = f(x\ast + \eta) </script>
+</p>
+<p>Taylor's expansion:
+<script type="math/tex; mode=display"> f(x\ast + \eta) = f(x\ast) + \eta f'(x\ast) + O(\eta^2) </script>
+</p>
+<ul>
+<li>
+<script type="math/tex"> O(\eta^2) </script>: quadratically small term in <script type="math/tex"> \eta </script>
+</li>
+</ul>
+<p>
+<script type="math/tex; mode=display"> \dot{\eta} = \eta f'(x\ast) + O(\eta^2) </script>
+</p>
+<p>
+<script type="math/tex; mode=display"> \dot{\eta} \approx \eta f'(x\ast) </script>
+</p>
+<h3 id="example_241">Example 2.4.1<a class="headerlink" href="#example_241" title="Permanent link">&para;</a></h3>
+<p>using linear stability analysis:
+<script type="math/tex; mode=display"> \dot{x} = \sin{x} </script>
+</p>
+<p><em>Solution:</em></p>
+<p>
+<script type="math/tex; mode=display">
+    \begin{align*}
+        f'(x*) 
+        &= \cos k\pi \\
+        &=
+        \begin{cases}
+            1, &\quad k \, \text{even} \\
+            -1, &\quad k \, \text{odd}
+        \end{cases}
+    \end{align*}
+</script>
+</p>
+<h3 id="example_242">Example 2.4.2<a class="headerlink" href="#example_242" title="Permanent link">&para;</a></h3>
+<p>using linear stability analysis </p>
+<p><em>Solution:</em></p>
+<p>
+<script type="math/tex; mode=display"> f(N) = rN(1 - \frac{N}{K}) </script>
+</p>
+<p>
+<script type="math/tex"> N* = 0 </script>, <script type="math/tex"> N* = K </script>
+</p>
+<p>
+<script type="math/tex; mode=display"> f'(N) = r - \frac{2rN}{K} </script>
+</p>
+<p>
+<script type="math/tex"> f'(0)=r </script>, <script type="math/tex"> f'(K)=-r </script>
+</p>
+<h3 id="example_243">Example 2.4.3<a class="headerlink" href="#example_243" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<script type="math/tex"> \dot{x} = - x^3 </script>
+</li>
+<li>
+<script type="math/tex"> \dot{x} = x^3 </script>
+</li>
+<li>
+<script type="math/tex"> \dot{x} = x^2 </script>
+</li>
+<li>
+<script type="math/tex"> \dot{x} = 0 </script>
+</li>
+</ol>
+<h2 id="0205_existence_and_uniquness">02.05. Existence and Uniquness<a class="headerlink" href="#0205_existence_and_uniquness" title="Permanent link">&para;</a></h2>
+<p>
+<script type="math/tex"> \dot{x} = f(x) </script>
+</p>
+<h3 id="example_251">Example 2.5.1<a class="headerlink" href="#example_251" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex; mode=display"> \dot{x} = x^{\frac{1}{3}} </script>
+</p>
+<p><em>Solution:</em></p>
+<p>
+<script type="math/tex; mode=display"> \int x^{-\frac{1}{3}} dx = \int dt </script>
+</p>
+<p>
+<script type="math/tex; mode=display"> \frac{3}{2} x^{\frac{2}{3}} = t + C </script>
+</p>
+<h3 id="example_252">Example 2.5.2<a class="headerlink" href="#example_252" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex; mode=display">
+    \begin{align*}
+        \dot{x} &= 1 + x^2 \\
+        x(0) &= x_0
+    \end{align*}
+</script>
+</p>
+<h2 id="0206_impossibility_of_oscillations">02.06. Impossibility of Oscillations<a class="headerlink" href="#0206_impossibility_of_oscillations" title="Permanent link">&para;</a></h2>
+<h3 id="020601_mechanical_analog_overdamped_systems">02.06.01. Mechanical Analog: Overdamped Systems<a class="headerlink" href="#020601_mechanical_analog_overdamped_systems" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex"> \dot{x} = f(x) </script> can't oscillate
+limiting case of Newton's law</p>
+<p>intertia term <script type="math/tex"> m\ddot{x} </script> is negligible</p>
+<p>
+<script type="math/tex; mode=display"> m\ddot{x} + b\dot{x} = F(x) </script>
+</p>
+<p>
+<script type="math/tex"> b\dot{x} \gg m\ddot{x} </script>
+</p>
+<h2 id="0207_potentials">02.07. Potentials<a class="headerlink" href="#0207_potentials" title="Permanent link">&para;</a></h2>
+<p>another way to visualize 1st-order system <script type="math/tex"> \dot{x} = f(x) </script>
+</p>
+<p>
+<script type="math/tex; mode=display"> \dot{x} = f(x) = - \frac{dV}{dx} </script>
+</p>
+<p>
+<script type="math/tex; mode=display"> \frac{dV}{dt} = \frac{dV}{dx} \frac{dx}{dt} </script>
+</p>
+<p>
+<script type="math/tex; mode=display"> \frac{dx}{dt} = - \frac{dV}{dx} </script>
+</p>
+<p>
+<script type="math/tex; mode=display"> \frac{dV}{dt} = - \Big( \frac{dV}{dx} \Big)^2 ≤ 0 </script>
+</p>
+<h3 id="example_271">Example 2.7.1<a class="headerlink" href="#example_271" title="Permanent link">&para;</a></h3>
+<p>Graph the potential fot the system: <script type="math/tex"> \dot{x} = - x </script>
+</p>
+<p><em>Solution:</em></p>
+<p>
+<script type="math/tex"> - \frac{dV}{dx} = -x </script>
+general solution: <script type="math/tex"> V(x) = \frac{1}{2} x^2 + C </script>
+</p>
+<h3 id="example_272">Example 2.7.2<a class="headerlink" href="#example_272" title="Permanent link">&para;</a></h3>
+<p>Graph the potential for the system: <script type="math/tex"> \dot{x} = x - x^3 </script>
+</p>
+<p><em>Solution:</em></p>
+<p>
+<script type="math/tex"> -\frac{dV}{dx} = x-x^3 </script>
+<script type="math/tex; mode=display"> V = -\frac{1}{2} x^2 + \frac{1}{4} x^4 + C </script>
+</p>
+<h2 id="0208_solving_equations_on_the_computer">02.08. Solving Equations on the Computer<a class="headerlink" href="#0208_solving_equations_on_the_computer" title="Permanent link">&para;</a></h2>
+<ul>
+<li>graphical</li>
+<li>analytical </li>
+<li><strong>numerical method</strong></li>
+</ul>
+<p><strong>numerical intergration</strong></p>
+<h3 id="020801_eulers_method">02.08.01. Euler's Method<a class="headerlink" href="#020801_eulers_method" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex; mode=display"> \dot{x} = f(x) </script>
+</p>
+<p>
+<script type="math/tex; mode=display">
+    \begin{align*}
+        x(t_0 + \Delta t) &\approx x_1 \\
+        &= x_0 + f(x_0) \Delta t
+    \end{align*}
+</script>
+</p>
+<p>
+<script type="math/tex; mode=display"> x_{n+1} = x_n + f(x_n) \Delta t </script>
+</p>
+<p><strong>fourth-order Runge-Kutta method</strong></p>
+<p>
+<script type="math/tex; mode=display">
+    \begin{cases}
+        k_1 = f(x_n) \Delta t \\
+        k_2 = f(x_n + \frac{1}{2} k_1) \Delta t \\
+        k_3 = f(x_n + \frac{1}{2} k_2) \Delta t \\
+        k_4 = f(x_n + k_3) \Delta t \\
+    \end{cases} \\
+    x_{n+1} = x_n + \frac{1}{6} (k_1 + 2 k_2 + 2 k_3 + k_4)
+</script>
+</p>
+<h3 id="example_281">Example 2.8.1<a class="headerlink" href="#example_281" title="Permanent link">&para;</a></h3>
+<p>Solve the system <script type="math/tex">\dot{x} = x (1 - x)</script> numerically</p>
+<p><em>Solution:</em></p>
+<h2 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<!-- ref -->
+
+<!-- fig -->
+
+<style type="text/css">
+    img{width: 51%; float: right;}
+</style>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../../01/note/" class="btn btn-neutral" title="01"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright &copy; 2018 - 2019 <a href="https://github.com/shumez">shumez</a>
+</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../../01/note/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>

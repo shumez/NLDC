@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>01 - NLDC</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "01";
+    var mkdocs_page_input_path = "01/note.md";
+    var mkdocs_page_url = "/01/note/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> NLDC</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">01</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#toc">ToC</a></li>
+    
+
+    <li class="toctree-l2"><a href="#0100_chaos_fractals_and_dynamics">01.00. Chaos, Fractals, and Dynamics</a></li>
+    
+
+    <li class="toctree-l2"><a href="#0101_capsule_history_of_dynamics">01.01. Capsule History of Dynamics</a></li>
+    
+
+    <li class="toctree-l2"><a href="#0102_the_importance_of_being_nonlinear">01.02. The Importance of Being Nonlinear</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#010201_nonautonomous_systems">01.02.01. Nonautonomous Systems</a></li>
+        
+            <li><a class="toctree-l3" href="#010202_why_are_nonlinear_problems_so_hard">01.02.02. Why Are Nonlinear Problems So Hard?</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#0103_a_dynamical_view_of_the_world">01.03. A Dynamical View of the World</a></li>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../02/note/">02</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">NLDC</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>01</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <!--
+Filename:   note.md
+Project:    /Users/shume/Developer/NLDC/01
+Author:     shumez <https://github.com/shumez>
+Created:    2019-04-29 19:27:6
+Modified:   2019-04-29 19:42:1
+-----
+Copyright (c) 2019 shumez
+-->
+
+<h1 id="01_overview">01. Overview<a class="headerlink" href="#01_overview" title="Permanent link">&para;</a></h1>
+<h2 id="toc">ToC<a class="headerlink" href="#toc" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="#1.0-Chaos,-Fractals,-and-Dynamics">01.00. Chaos, Fractals, and Dynamics</a></li>
+<li><a href="#1.1-Capsule-History-of-Dynamics">01.01. Capsule History of Dynamics</a></li>
+<li><a href="#1.2-The-Importance-of-Being-Nonlinear">01.02. The Importance of Being Nonlinear</a><ul>
+<li><a href="#Nonautonomous-Systems">Nonautonomous Systems</a></li>
+<li><a href="#Why-Are-Nonlinear-Problems-So-Hard?">Why Are Nonlinear Problems So Hard?</a></li>
+</ul>
+</li>
+<li><a href="#0103-A-Dynamical-View-of-the-World">01.03. A Dynamical View of the World</a></li>
+</ul>
+<h2 id="0100_chaos_fractals_and_dynamics">01.00. Chaos, Fractals, and Dynamics<a class="headerlink" href="#0100_chaos_fractals_and_dynamics" title="Permanent link">&para;</a></h2>
+<h2 id="0101_capsule_history_of_dynamics">01.01. Capsule History of Dynamics<a class="headerlink" href="#0101_capsule_history_of_dynamics" title="Permanent link">&para;</a></h2>
+<h2 id="0102_the_importance_of_being_nonlinear">01.02. The Importance of Being Nonlinear<a class="headerlink" href="#0102_the_importance_of_being_nonlinear" title="Permanent link">&para;</a></h2>
+<p>
+<script type="math/tex; mode=display"> m \frac{d^2 x}{dt^2} + b \frac{dx}{dt} + kx = 0 \tag{1} </script>
+</p>
+<p>
+<script type="math/tex; mode=display"> \frac{\partial u}{\partial t} = \frac{\partial ^2 u}{\partial x^2} </script>
+</p>
+<p>
+<script type="math/tex; mode=display">
+    \begin{align*}
+        \dot{x}_1 &= f_1(x_1, \cdots , x_n) \\
+        & \vdots \\
+        \dot{x}_n &= f_n(x_1, \cdots , x_n)
+    \end{align*}
+    \tag{2}
+</script>
+</p>
+<p>
+<script type="math/tex; mode=display">\dot{x}_1 \equiv \frac{dx_i}{dt}</script>
+</p>
+<p>
+<script type="math/tex; mode=display">
+    \begin{align*}
+        \dot{x}_2 
+        &= \ddot{x} = - \frac{b}{m} \dot{x} - \frac{k}{m} x \\
+        &= - \frac{b}{m} x_2 - \frac{k}{m} x_1
+    \end{align*}
+</script>
+</p>
+<p>
+<script type="math/tex; mode=display">
+    \begin{cases}
+        \dot{x}_1 &= x_2 \\
+        \dot{x}_2 &= - \frac{b}{m} x_2 - \frac{k}{m} x_1
+    \end{cases}
+</script>
+</p>
+<p><strong>nonlinear</strong></p>
+<p>e.g., pendulum</p>
+<p>
+<script type="math/tex; mode=display">
+    \begin{cases}
+        \dot{x}_1 = x_2 \\
+        \dot{x}_2 = - \frac{g}{L} \sin(x_1)
+    \end{cases}
+</script>
+</p>
+<ul>
+<li>
+<script type="math/tex">x</script>
+</li>
+<li>
+<script type="math/tex">g</script>: gravity acceleration</li>
+<li>
+<script type="math/tex">L</script>: length</li>
+</ul>
+<h3 id="010201_nonautonomous_systems">01.02.01. Nonautonomous Systems<a class="headerlink" href="#010201_nonautonomous_systems" title="Permanent link">&para;</a></h3>
+<p><strong>forced harmonic oscillator</strong></p>
+<p>
+<script type="math/tex; mode=display"> m\ddot{x} + b\dot{x} + kx = F \cos t </script>
+</p>
+<p>let:
+- <script type="math/tex">x_1 = x</script>
+- <script type="math/tex">x_2 = \dot{x}</script>
+- <script type="math/tex">x_3 = t</script>, then <script type="math/tex">\dot{x}_3 = 1</script>
+</p>
+<p>
+<script type="math/tex; mode=display">
+    \begin{cases}
+        \dot{x}_1 = x_2 \\
+        \dot{x}_2 = \frac{1}{m} (-kx_1 - bx_2 + F\cos x_3) \\
+        \dot{x}_3 = 1
+    \end{cases}
+    \tag{3}
+</script>
+</p>
+<h3 id="010202_why_are_nonlinear_problems_so_hard">01.02.02. Why Are Nonlinear Problems So Hard?<a class="headerlink" href="#010202_why_are_nonlinear_problems_so_hard" title="Permanent link">&para;</a></h3>
+<h2 id="0103_a_dynamical_view_of_the_world">01.03. A Dynamical View of the World<a class="headerlink" href="#0103_a_dynamical_view_of_the_world" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th align="right"></th>
+<th align="center">
+<script type="math/tex">n=1</script>
+</th>
+<th align="center">
+<script type="math/tex">n=2</script>
+</th>
+<th align="center">
+<script type="math/tex">n\ge3</script>
+</th>
+<th align="center">
+<script type="math/tex">n\gg1</script>
+</th>
+<th align="center">Continuum</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">Linear</td>
+<td align="center"><strong>Growth, decay, equilibrilium</strong></td>
+<td align="center"><strong>Oscillation</strong></td>
+<td align="center"></td>
+<td align="center"><strong>Collective phenomenon</strong></td>
+<td align="center"><strong>Waves &amp; pattern</strong></td>
+</tr>
+<tr>
+<td align="right">Nonlinear</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"><strong>Chaos</strong></td>
+<td align="center"></td>
+<td align="center"><strong>Spatio-temporal complexity</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<!-- ref -->
+
+<!-- fig -->
+
+<!-- <style type="text/css">
+    img{width: 51%; float: right;}
+</style> -->
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../02/note/" class="btn btn-neutral float-right" title="02">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../.." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright &copy; 2018 - 2019 <a href="https://github.com/shumez">shumez</a>
+</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../.." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../02/note/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>
