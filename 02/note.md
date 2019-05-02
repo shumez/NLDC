@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-04-29 21:19:10
+Modified: 	2019-05-02 20:50:48
 -----
 Copyright (c) 2019 shumez
 -->
@@ -15,22 +15,26 @@ Copyright (c) 2019 shumez
 * [02.00. Introduction](#0200_introduction)
 * [02.01. A Geometric way of Thinking](#0201_a_geometric_way_of_thinking)
 * [02.02. Fixed Points and Stability](#0202_fixed_points_and_stability)
-    * [Example 2.2.1](#example_221)
-    * [Example 2.2.2](#example_222)
-    * [Example 2.2.3](#example_223)
+    * [02.02.01. Example 2.2.1](#020201_example_221)
+    * [02.02.02. Example 2.2.2](#020202_example_222)
+    * [02.02.03. Example 2.2.3](#020203_example_223)
 * [02.03. Population Growth](#0203_population_growth)
     * [02.03.01. Critique of the Logistic Model](#020301_critique_of_the_logistic_model)
 * [02.04. Linear Stability Analysis](#0204_linear_stability_analysis)
-    * [Example 2.4.1](#example_241)
+    * [02.04.01. Example 2.4.1](#020401_example_241)
+    * [02.04.02. Example 2.4.2](#020402_example_242)
+    * [02.04.03. Example 2.4.3](#020403_example_243)
 * [02.05. Existence and Uniquness](#0205_existence_and_uniquness)
-    * [Example 2.5.1](#example_251)
-    * [Example 2.5.2](#example_252)
+    * [02.05.01. Example 2.5.1](#020501_example_251)
+    * [02.05.02. Example 2.5.2](#020502_example_252)
 * [02.06. Impossibility of Oscillations](#0206_impossibility_of_oscillations)
     * [02.06.01. Mechanical Analog: Overdamped Systems](#020601_mechanical_analog_overdamped_systems)
 * [02.07. Potentials](#0207_potentials)
-    * [Example 2.7.1](#example_271)
+    * [02.07.01. Example 2.7.1](#020701_example_271)
+    * [02.07.02. Example 2.7.2](#020702_example_272)
 * [02.08. Solving Equations on the Computer](#0208_solving_equations_on_the_computer)
     * [02.08.01. Euler's Method](#020801_eulers_method)
+    * [02.08.02. Example 2.8.1](#020802_example_281)
 
 
 
@@ -80,14 +84,14 @@ $$ t = \ln \Big|\frac{\csc x_0 + \cot x_0}{\csc x + \cot x}\Big| \tag{2} $$
 - **phase portrait**: qualitatively different trajectories
 
 
-### Example 2.2.1
+### 02.02.01. Example 2.2.1
 
 $$ \dot{x} = x^2 - 1 $$
 
 [![Fig.2.2.2][fig_02_02_02]][fig_02_02_02]
 
 
-### Example 2.2.2
+### 02.02.02. Example 2.2.2
 
 $$ -V_0 + RI + \frac{Q}{C} = 0 $$
 $$ \dot{Q} = I $$
@@ -96,7 +100,7 @@ $$ - V_0 + R\dot{Q} + \frac{Q}{C} = 0 $$
 $$ \dot{Q} = f(Q) = \frac{V_0}{R} - \frac{Q}{RC} $$
 
 
-### Example 2.2.3
+### 02.02.03. Example 2.2.3
 
 $$ \dot{x} = x - \cos{x} $$
 
@@ -138,7 +142,7 @@ $$ \dot{\eta} = \eta f'(x\ast) + O(\eta^2) $$
 $$ \dot{\eta} \approx \eta f'(x\ast) $$
 
 
-### Example 2.4.1
+### 02.04.01. Example 2.4.1
 
 using linear stability analysis:
 $$ \dot{x} = \sin{x} $$
@@ -158,7 +162,7 @@ $$
 $$
 
 
-### Example 2.4.2
+### 02.04.02. Example 2.4.2
 
 using linear stability analysis 
 
@@ -173,7 +177,7 @@ $$ f'(N) = r - \frac{2rN}{K} $$
 $ f'(0)=r $, $ f'(K)=-r $
 
 
-### Example 2.4.3
+### 02.04.03. Example 2.4.3
 
 1. $ \dot{x} = - x^3 $
 2. $ \dot{x} = x^3 $
@@ -185,7 +189,7 @@ $ f'(0)=r $, $ f'(K)=-r $
 
 $ \dot{x} = f(x) $
 
-### Example 2.5.1
+### 02.05.01. Example 2.5.1
 
 $$ \dot{x} = x^{\frac{1}{3}} $$
 
@@ -196,7 +200,7 @@ $$ \int x^{-\frac{1}{3}} dx = \int dt $$
 $$ \frac{3}{2} x^{\frac{2}{3}} = t + C $$
 
 
-### Example 2.5.2
+### 02.05.02. Example 2.5.2
 
 $$
     \begin{align*}
@@ -233,7 +237,7 @@ $$ \frac{dx}{dt} = - \frac{dV}{dx} $$
 $$ \frac{dV}{dt} = - \Big( \frac{dV}{dx} \Big)^2 ≤ 0 $$
 
 
-### Example 2.7.1
+### 02.07.01. Example 2.7.1
 
 Graph the potential fot the system: $ \dot{x} = - x $
 
@@ -243,7 +247,7 @@ $ - \frac{dV}{dx} = -x $
 general solution: $ V(x) = \frac{1}{2} x^2 + C $
 
 
-### Example 2.7.2
+### 02.07.02. Example 2.7.2
 
 Graph the potential for the system: $ \dot{x} = x - x^3 $
 
@@ -290,7 +294,7 @@ $$
 $$
 
 
-### Example 2.8.1
+### 02.08.02. Example 2.8.1
 
 
 Solve the system $\dot{x} = x (1 - x)$ numerically
