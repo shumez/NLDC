@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/01
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:6
-Modified: 	2019-05-02 20:32:1
+Modified: 	2019-05-02 20:39:24
 -----
 Copyright (c) 2019 shumez
 -->
@@ -101,11 +101,18 @@ let:
 
 ## 01.03. A Dynamical View of the World
 
+growth of population
+
+\[ \dot{x} = r x \]
+
+swinging of pendulum 
+
+\[ \ddot{x} + \frac{g}{L} \sin{x} = 0 \]
 
 |           | \(n=1\) | \(n=2\) | \(n\ge3\) | \(n\gg1\) | Continuum |
 |----------:|:-----:|:-----:|:-------:|:-------:|:---------:|
-| Linear    | **Growth, decay, equilibrilium** | **Oscillation** | | **Collective phenomenon** | **Waves & pattern** |
-| Nonlinear |     |     | **Chaos** | | **Spatio-temporal complexity** |
+| Linear    | **Growth, decay, equilibrilium** Exponential growth, RC circuit, Radioactive decay | **Oscillation** Linear oscillator, Mass and spring, RLC circuit, 2-body problem | | **Collective phenomenon** | **Waves & pattern** |
+| Nonlinear | Fixed points, Bifurcation, Overdampled system, Logistic equation | Pendlum, Anharmonic oscillator, Limit cycle, Biological oscillator,  | **Chaos** | | **Spatio-temporal complexity** |
 
 
 ##
