@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-02 20:50:48
+Modified: 	2019-05-02 20:58:54
 -----
 Copyright (c) 2019 shumez
 -->
@@ -40,36 +40,37 @@ Copyright (c) 2019 shumez
 
 ## 02.00. Introduction
 
-$$
+\[
     \begin{align*}
         \dot{x}_1 &= f_1(x_1, \cdots, x_n) \\
         & \vdots \\
         \dot{x}_n &= f_n(x_1, \cdots, x_n)
     \end{align*}
-$$
+\]
 
-$n = 1$
+\( n = 1 \)
 
-$$ \dot{x} = f(x) $$
+\[ \dot{x} = f(x) \]
 
 **one-dimensinal** / **first-order system**
 
 
 ## 02.01. A Geometric way of Thinking
 
-$$ \dot{x} = \sin x \tag{1} $$
+\[ \dot{x} = \sin x \tag{1} \]
 
-$$ dt = \frac{dx}{\sin x} $$
+\[ dt = \frac{dx}{\sin x} \]
 
 implies: 
-$$
+
+\[
     \begin{align*}
         t &= \int \csc x \, \mathrm{d}x \\
         &= - \ln |\csc x + \cot x | + C
     \end{align*}
-$$
+\]
 
-$$ t = \ln \Big|\frac{\csc x_0 + \cot x_0}{\csc x + \cot x}\Big| \tag{2} $$
+\[ t = \ln \Big|\frac{\csc x_0 + \cot x_0}{\csc x + \cot x}\Big| \tag{2} \]
 
 [![fig.2.1.1][fig_02_01_01]][fig_02_01_01]
 
@@ -86,35 +87,38 @@ $$ t = \ln \Big|\frac{\csc x_0 + \cot x_0}{\csc x + \cot x}\Big| \tag{2} $$
 
 ### 02.02.01. Example 2.2.1
 
-$$ \dot{x} = x^2 - 1 $$
+\[ \dot{x} = x^2 - 1 \]
 
 [![Fig.2.2.2][fig_02_02_02]][fig_02_02_02]
 
 
 ### 02.02.02. Example 2.2.2
 
-$$ -V_0 + RI + \frac{Q}{C} = 0 $$
-$$ \dot{Q} = I $$
+\[ -V_0 + RI + \frac{Q}{C} = 0 \]
 
-$$ - V_0 + R\dot{Q} + \frac{Q}{C} = 0 $$
-$$ \dot{Q} = f(Q) = \frac{V_0}{R} - \frac{Q}{RC} $$
+\[ \dot{Q} = I \]
+
+\[ - V_0 + R\dot{Q} + \frac{Q}{C} = 0 \]
+
+\[ \dot{Q} = f(Q) = \frac{V_0}{R} - \frac{Q}{RC} \]
 
 
 ### 02.02.03. Example 2.2.3
 
-$$ \dot{x} = x - \cos{x} $$
+\[ \dot{x} = x - \cos{x} \]
 
 
 ## 02.03. Population Growth
 
-$$ \dot{N} = rN $$
+\[ \dot{N} = rN \]
 
-$$ N(t) = N_0e^rt $$
+\[ N(t) = N_0e^rt \]
 
-**Carrying capacity**: $K$
+**Carrying capacity**: \(K\)
 
 **Logistic eq**
-$$ \dot{N} = rN \Big(1 - \frac{N}{K} \Big) $$
+
+\[ \dot{N} = rN \Big(1 - \frac{N}{K} \Big) \]
 
 
 ### 02.03.01. Critique of the Logistic Model
@@ -122,36 +126,39 @@ $$ \dot{N} = rN \Big(1 - \frac{N}{K} \Big) $$
 ## 02.04. Linear Stability Analysis
 
 Let 
-- $ x\ast $: fixed point
 
-$$ \eta(t) = x(t) - x\ast $$
+- \(x^\ast\): fixed point
 
-$$ \dot{\eta} = \frac{d}{dt} (x - x\ast) = \dot{x} $$
+\[ \eta(t) = x(t) - x^\ast \]
 
-- $ x\ast $: constant
+\[ \dot{\eta} = \frac{d}{dt} (x - x^\ast) = \dot{x} \]
 
-$$ \dot{\eta} = \dot{x} = f(x) = f(x\ast + \eta) $$
+- \(x^\ast\): constant
+
+\[ \dot{\eta} = \dot{x} = f(x) = f(x\ast + \eta) \]
 
 Taylor's expansion:
-$$ f(x\ast + \eta) = f(x\ast) + \eta f'(x\ast) + O(\eta^2) $$
 
-- $ O(\eta^2) $: quadratically small term in $ \eta $
+\[ f(x\ast + \eta) = f(x\ast) + \eta f'(x\ast) + O(\eta^2) \]
 
-$$ \dot{\eta} = \eta f'(x\ast) + O(\eta^2) $$
+- \(O(\eta^2)\): quadratically small term in \(\eta\)
 
-$$ \dot{\eta} \approx \eta f'(x\ast) $$
+\[ \dot{\eta} = \eta f'(x^\ast) + O(\eta^2) \]
+
+\[ \dot{\eta} \approx \eta f'(x^\ast) \]
 
 
 ### 02.04.01. Example 2.4.1
 
 using linear stability analysis:
-$$ \dot{x} = \sin{x} $$
+
+\[ \dot{x} = \sin{x} \]
 
 *Solution:*
 
-$$
+\[
     \begin{align*}
-        f'(x*) 
+        f'(x^*) 
         &= \cos k\pi \\
         &=
         \begin{cases}
@@ -159,7 +166,7 @@ $$
             -1, &\quad k \, \text{odd}
         \end{cases}
     \end{align*}
-$$
+\]
 
 
 ### 02.04.02. Example 2.4.2
@@ -168,30 +175,30 @@ using linear stability analysis
 
 *Solution:*
 
-$$ f(N) = rN(1 - \frac{N}{K}) $$
+\[ f(N) = rN(1 - \frac{N}{K}) \]
 
-$ N* = 0 $, $ N* = K $
+\( N* = 0 $, $ N* = K \)
 
-$$ f'(N) = r - \frac{2rN}{K} $$
+\[ f'(N) = r - \frac{2rN}{K} \]
 
-$ f'(0)=r $, $ f'(K)=-r $
+\( f'(0)=r $, $ f'(K)=-r \)
 
 
 ### 02.04.03. Example 2.4.3
 
-1. $ \dot{x} = - x^3 $
-2. $ \dot{x} = x^3 $
-3. $ \dot{x} = x^2 $
-4. $ \dot{x} = 0 $
+1. \( \dot{x} = - x^3 \)
+2. \( \dot{x} = x^3 \)
+3. \( \dot{x} = x^2 \)
+4. \( \dot{x} = 0 \)
 
 
 ## 02.05. Existence and Uniquness
 
-$ \dot{x} = f(x) $
+\( \dot{x} = f(x) \)
 
 ### 02.05.01. Example 2.5.1
 
-$$ \dot{x} = x^{\frac{1}{3}} $$
+\[ \dot{x} = x^{\frac{1}{3}} \]
 
 *Solution:*
 
