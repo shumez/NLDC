@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-04 15:02:30
+Modified: 	2019-05-04 17:45:12
 -----
 Copyright (c) 2019 shumez
 -->
@@ -86,6 +86,8 @@ implies:
 
 ## 02.02. Fixed Points and Stability
 
+[![Fig.2.2.1][fig020201]][fig020201]
+
 - **phase point**: imaginary point
 - **phase portrait**: qualitatively different trajectories
 
@@ -99,19 +101,30 @@ implies:
 
 ### Example 2.2.2
 
+resistor \(R\), capacitor \(C\), voltage \(V_0\)
+
+let \(Q(t)\) denote the charge on the capacitor at time \(t≥0\)
+
+*Solution*
+
 \[ -V_0 + RI + \frac{Q}{C} = 0 \]
 
 \[ \dot{Q} = I \]
 
-\[ - V_0 + R\dot{Q} + \frac{Q}{C} = 0 \]
+hence
 
+\[ - V_0 + R\dot{Q} + \frac{Q}{C} = 0 \]
+or
 \[ \dot{Q} = f(Q) = \frac{V_0}{R} - \frac{Q}{RC} \]
 
+
+[![Fig.2.2.4-5][fig020204-05]][fig020204-05]
 
 ### Example 2.2.3
 
 \[ \dot{x} = x - \cos{x} \]
 
+[![Fig.2.2.6][fig020206]][fig020206]
 
 ## 02.03. Population Growth
 
@@ -327,7 +340,10 @@ Solve the system \(\dot{x} = x (1 - x)\) numerically
 <!-- fig -->
 [fig020101]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020101.png
 [fig020103]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020103.png
+[fig020201]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020201.png
 [fig020202]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020202.png
+[fig020204-05]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020204-05.png
+[fig020206]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020206.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
