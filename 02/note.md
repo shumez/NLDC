@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-04 12:11:8
+Modified: 	2019-05-04 15:02:30
 -----
 Copyright (c) 2019 shumez
 -->
@@ -80,6 +80,8 @@ implies:
 
 - **stable**
 - **unstable**
+
+[![Fig.2.1.3][fig020103]][fig020103]
 
 
 ## 02.02. Fixed Points and Stability
@@ -324,6 +326,7 @@ Solve the system \(\dot{x} = x (1 - x)\) numerically
 
 <!-- fig -->
 [fig020101]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020101.png
+[fig020103]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020103.png
 [fig020202]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020202.png
 
 <style type="text/css">
