@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-04 18:06:53
+Modified: 	2019-05-04 20:20:29
 -----
 Copyright (c) 2019 shumez
 -->
@@ -143,6 +143,13 @@ growth rate \(r\)
 [![Fig.2.3.3][fig020303-04]][fig020303-04]
 
 ### 02.03.01. Critique of the Logistic Model
+
+originally, univeral law of growth ([Pearl, 1927][1927_Pearl])
+
+* bacteria, yeast: sigmoid growth curve  
+* fruit flies, flour beetles: perssistent fluctuation &lArr; age structure, time-delayed effect ([Krebs, 1972][1972_Krebs])
+
+[Pielou 1969], [May 1981], [Edelstein=Keshet 1988], [Murray 2002], [Murray 2003]
 
 ## 02.04. Linear Stability Analysis
 
