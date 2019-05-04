@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-02 22:23:17
+Modified: 	2019-05-04 12:11:8
 -----
 Copyright (c) 2019 shumez
 -->
@@ -74,9 +74,10 @@ implies:
 
 \[ t = \ln \Big|\frac{\csc x_0 + \cot x_0}{\csc x + \cot x}\Big| \tag{2} \]
 
-[![fig.2.1.1][fig_02_01_01]][fig_02_01_01]
+[![fig.2.1.1][fig020101]][fig020101]
 
-**fixed point**
+**fixed point**:
+
 - **stable**
 - **unstable**
 
@@ -91,7 +92,7 @@ implies:
 
 \[ \dot{x} = x^2 - 1 \]
 
-[![Fig.2.2.2][fig_02_02_02]][fig_02_02_02]
+[![Fig.2.2.2][fig020202]][fig020202]
 
 
 ### Example 2.2.2
@@ -322,8 +323,8 @@ Solve the system \(\dot{x} = x (1 - x)\) numerically
 <!-- ref -->
 
 <!-- fig -->
-[fig_02_01_01]: img/fig_02_01_01.png
-[fig_02_02_02]: img/fig_02_02_02.png
+[fig020101]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020101.png
+[fig020202]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020202.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
