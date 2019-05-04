@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-04 17:45:12
+Modified: 	2019-05-04 18:06:53
 -----
 Copyright (c) 2019 shumez
 -->
@@ -130,6 +130,8 @@ or
 
 \[ \dot{N} = rN \]
 
+growth rate \(r\)
+
 \[ N(t) = N_0e^rt \]
 
 **Carrying capacity**: \(K\)
@@ -138,6 +140,7 @@ or
 
 \[ \dot{N} = rN \Big(1 - \frac{N}{K} \Big) \]
 
+[![Fig.2.3.3][fig020303-04]][fig020303-04]
 
 ### 02.03.01. Critique of the Logistic Model
 
@@ -344,6 +347,7 @@ Solve the system \(\dot{x} = x (1 - x)\) numerically
 [fig020202]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020202.png
 [fig020204-05]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020204-05.png
 [fig020206]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020206.png
+[fig020303-04]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020303-04.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
