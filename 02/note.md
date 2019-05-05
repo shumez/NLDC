@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-05 16:37:2
+Modified: 	2019-05-05 16:38:35
 -----
 Copyright (c) 2019 shumez
 -->
@@ -310,6 +310,7 @@ Graph the potential fot the system: \(\dot{x} = - x\)
 *Solution:*
 
 \(- \frac{dV}{dx} = -x\)
+
 general solution: \(V(x) = \frac{1}{2} x^2 + C\)
 
 
