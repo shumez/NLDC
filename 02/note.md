@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-05 16:48:44
+Modified: 	2019-05-05 17:48:22
 -----
 Copyright (c) 2019 shumez
 -->
@@ -374,10 +374,12 @@ yeilds
 
 ### Example 2.8.1
 
-
 Solve the system \(\dot{x} = x (1 - x)\) numerically
 
+[![Fig.2.8.3][fig020803]][fig020803]
+
 *Solution:*
+
 
 
 
@@ -402,6 +404,8 @@ Solve the system \(\dot{x} = x (1 - x)\) numerically
 [fig020501]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020501.png
 [fig020701]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020701.png
 [fig020703]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020703.png
+[fig020803]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020803.png
+
 
 <style type="text/css">
 	img{width: 51%; float: right;}
