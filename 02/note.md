@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-05 16:21:55
+Modified: 	2019-05-05 16:37:2
 -----
 Copyright (c) 2019 shumez
 -->
@@ -288,7 +288,11 @@ behave like \(b \dot{x} = F(x)\)
 
 ## 02.07. Potentials
 
+[![Fig.2.7.1][fig020701]][fig020701]
+
 another way to visualize 1st-order system \(\dot{x} = f(x)\)
+
+**potentials** \(V(x)\) is defined by
 
 \[ \dot{x} = f(x) = - \frac{dV}{dx} \]
 
@@ -385,6 +389,7 @@ Solve the system \(\dot{x} = x (1 - x)\) numerically
 [fig020303-04]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020303-04.png
 [fig020401]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020401.png
 [fig020501]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020501.png
+[fig020701]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020701.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
