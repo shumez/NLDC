@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-05 14:49:26
+Modified: 	2019-05-05 15:48:2
 -----
 Copyright (c) 2019 shumez
 -->
@@ -221,6 +221,8 @@ characteristic time scale is \( \frac{1}{|f'(N^\ast)|} = \frac{1}{r} \)
 3. \( \dot{x} = x^2 \)
 4. \( \dot{x} = 0 \)
 
+[![Fig.2.4.1][fig020401]][fig020401]
+
 
 ## 02.05. Existence and Uniquness
 
@@ -358,6 +360,7 @@ Solve the system \(\dot{x} = x (1 - x)\) numerically
 [fig020204-05]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020204-05.png
 [fig020206]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020206.png
 [fig020303-04]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020303-04.png
+[fig020401]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020401.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
