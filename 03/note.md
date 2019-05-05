@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-05-05 18:00:36
+Modified: 	2019-05-05 19:30:7
 -----
 Copyright (c) 2019 shumez
 -->
@@ -18,7 +18,7 @@ Copyright (c) 2019 shumez
 
 ## 03.00. Introduciton
 
-
+**birfurcation**
 
 
 ##
