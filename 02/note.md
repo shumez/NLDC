@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-05 15:58:40
+Modified: 	2019-05-05 16:17:34
 -----
 Copyright (c) 2019 shumez
 -->
@@ -249,6 +249,26 @@ characteristic time scale is \( \frac{1}{|f'(N^\ast)|} = \frac{1}{r} \)
         x(0) &= x_0
     \end{align*}
 \]
+
+solutions exist for all time?
+
+*Solution:*
+
+consider the case where \(x(0)=0\)
+
+solved analytically
+
+\[ \int{\frac{dx}{1 + x^2}} = \int{dt} \]
+
+yeilds
+
+\[ \tan^{-1}{x} = t + C \]
+
+\(x(0) = 0\) implies \(C = 0\) 
+
+solution exists for \(-\frac{\pi}{2} < t < \frac{\pi}{2}\), because \(x(t) \rightarrow \pm\infty\) as \(t \rightarrow \pm\frac{\pi}{2}\) 
+
+
 
 
 ## 02.06. Impossibility of Oscillations
