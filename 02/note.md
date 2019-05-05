@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-05 15:48:2
+Modified: 	2019-05-05 15:58:40
 -----
 Copyright (c) 2019 shumez
 -->
@@ -234,6 +234,8 @@ characteristic time scale is \( \frac{1}{|f'(N^\ast)|} = \frac{1}{r} \)
 
 *Solution:*
 
+[![Fig.2.5.1][fig020501]][fig020501]
+
 \[ \int x^{-\frac{1}{3}} dx = \int dt \]
 
 \[ \frac{3}{2} x^{\frac{2}{3}} = t + C \]
@@ -361,6 +363,7 @@ Solve the system \(\dot{x} = x (1 - x)\) numerically
 [fig020206]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020206.png
 [fig020303-04]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020303-04.png
 [fig020401]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020401.png
+[fig020501]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020501.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
