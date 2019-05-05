@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-04 20:20:29
+Modified: 	2019-05-05 14:40:4
 -----
 Copyright (c) 2019 shumez
 -->
@@ -74,14 +74,14 @@ implies:
 
 \[ t = \ln \Big|\frac{\csc x_0 + \cot x_0}{\csc x + \cot x}\Big| \tag{2} \]
 
-[![fig.2.1.1][fig020101]][fig020101]
+[![fig.2.1.1][fig020101-03]][fig020101-03]
 
 **fixed point**:
 
 - **stable**
 - **unstable**
 
-[![Fig.2.1.3][fig020103]][fig020103]
+<!-- [![Fig.2.1.3][fig020103]][fig020103] -->
 
 
 ## 02.02. Fixed Points and Stability
@@ -161,7 +161,7 @@ Let
 
 \[ \dot{\eta} = \frac{d}{dt} (x - x^\ast) = \dot{x} \]
 
-- \(x^\ast\): constant
+\(x^\ast\) is constant
 
 \[ \dot{\eta} = \dot{x} = f(x) = f(x^\ast + \eta) \]
 
@@ -175,6 +175,7 @@ Taylor's expansion:
 
 \[ \dot{\eta} \approx \eta f'(x^\ast) \]
 
+**linearization about** \(x^\ast\)
 
 ### Example 2.4.1
 
@@ -350,6 +351,7 @@ Solve the system \(\dot{x} = x (1 - x)\) numerically
 <!-- fig -->
 [fig020101]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020101.png
 [fig020103]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020103.png
+[fig020101-03]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020101-03.png
 [fig020201]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020201.png
 [fig020202]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020202.png
 [fig020204-05]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020204-05.png
