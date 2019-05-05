@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-05 16:17:34
+Modified: 	2019-05-05 16:21:55
 -----
 Copyright (c) 2019 shumez
 -->
@@ -284,6 +284,7 @@ intertia term \(m\ddot{x}\) is negligible
 
 \(b\dot{x} \gg m\ddot{x}\)
 
+behave like \(b \dot{x} = F(x)\)
 
 ## 02.07. Potentials
 
