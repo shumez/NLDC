@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-05 14:46:39
+Modified: 	2019-05-05 14:49:26
 -----
 Copyright (c) 2019 shumez
 -->
@@ -204,14 +204,15 @@ using linear stability analysis
 
 *Solution:*
 
-\[ f(N) = rN(1 - \frac{N}{K}) \]
+\[ f(N) = rN (1 - \frac{N}{K}) \]
 
-\( N^* = 0 \), \( N^* = K \)
+fixed points \( N^* = 0 \), \( N^* = K \)
 
 \[ f'(N) = r - \frac{2rN}{K} \]
 
-\( f'(0)=r \), \( f'(K)=-r \)
+\( f'(0) = r \), \( f'(K) = -r \)
 
+characteristic time scale is \( \frac{1}{|f'(N^\ast)|} = \frac{1}{r} \)
 
 ### Example 2.4.3
 
