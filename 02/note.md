@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-05 16:38:35
+Modified: 	2019-05-05 16:48:44
 -----
 Copyright (c) 2019 shumez
 -->
@@ -318,11 +318,21 @@ general solution: \(V(x) = \frac{1}{2} x^2 + C\)
 
 Graph the potential for the system: \(\dot{x} = x - x^3\)
 
+identify all equibrium points
+
+[![Fig.2.7.3][fig020703]][fig020703]
+
 *Solution:*
 
 \(-\frac{dV}{dx} = x-x^3\) 
 
+yeilds
+
 \[ V = -\frac{1}{2} x^2 + \frac{1}{4} x^4 + C \]
+
+**double-well potential**
+
+**bistable**
 
 
 ## 02.08. Solving Equations on the Computer
@@ -391,6 +401,7 @@ Solve the system \(\dot{x} = x (1 - x)\) numerically
 [fig020401]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020401.png
 [fig020501]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020501.png
 [fig020701]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020701.png
+[fig020703]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig020703.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
