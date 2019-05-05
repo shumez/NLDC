@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-05 14:40:4
+Modified: 	2019-05-05 14:46:39
 -----
 Copyright (c) 2019 shumez
 -->
@@ -187,12 +187,12 @@ using linear stability analysis:
 
 \[
     \begin{align*}
-        f'(x^*) 
+        f'(x^\ast) 
         &= \cos k\pi \\
         &=
         \begin{cases}
-            1, &\quad k \, \text{even} \\
-            -1, &\quad k \, \text{odd}
+            1, &\quad k \text{ even} \\
+            -1, &\quad k \text{ odd}
         \end{cases}
     \end{align*}
 \]
