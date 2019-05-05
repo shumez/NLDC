@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-05-05 20:28:38
+Modified: 	2019-05-05 20:35:43
 -----
 Copyright (c) 2019 shumez
 -->
@@ -15,6 +15,7 @@ Copyright (c) 2019 shumez
 * [03.00. Introduction](#0300_introduction)
 * [03.01. Saddle-Node Bifurcation](#0301_saddle-node_bifurcation)
     * [03.01.01. Graphical Conventions](#030101_graphical_conventions)
+    * [03.01.02. Terminology](#030102_terminology)
 
 
 ## 03.00. Introduciton
@@ -33,6 +34,11 @@ Copyright (c) 2019 shumez
 bifurcation diagram
 
 [![Fig.3.1.3][fig030103]][fig030103]
+
+
+### 03.01.02. Terminology
+
+**fold bifurcation** (aka, **tuning-point bifurcation**)
 
 
 
