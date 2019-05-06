@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-05-05 20:42:24
+Modified: 	2019-05-06 13:20:37
 -----
 Copyright (c) 2019 shumez
 -->
@@ -60,15 +60,17 @@ linear stability analysis of fixed point: \( \dot{x} = f(x) = r - x^2 \)
 **Solution:**
 
 
+[![Fig.3.1.6][fig030106]][fig030106]
 
 ##
 
 <!-- ref -->
 
 <!-- fig -->
-[fig030101]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig030101.png
-[fig030103]: https://raw.githubusercontent.com/shumez/NLDC/master/02/fig/fig030103.png
+[fig030101]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030101.png
+[fig030103]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030103.png
+[fig030106]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030106.png
 
-<!-- <style type="text/css">
+<style type="text/css">
 	img{width: 51%; float: right;}
-</style> -->
+</style>
