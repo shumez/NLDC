@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-05-05 20:41:26
+Modified: 	2019-05-05 20:42:24
 -----
 Copyright (c) 2019 shumez
 -->
@@ -52,6 +52,12 @@ linear stability analysis of fixed point: \( \dot{x} = f(x) = r - x^2 \)
 
 \(x^\ast = \pm \sqrt{r}\)
 
+
+### Example 3.1.2
+
+\[ \dot{x} = r - x - e^{-x} \]
+
+**Solution:**
 
 
 
