@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-05-21 16:47:1
+Modified: 	2019-05-21 17:01:39
 -----
 Copyright (c) 2019 shumez
 -->
@@ -61,8 +61,22 @@ linear stability analysis of fixed point: \( \dot{x} = f(x) = r - x^2 \)
 
 **Solution:**
 
-
 [![Fig.3.1.6][fig030106]][fig030106]
+
+[![Fig.3.1.6-1][fig030106-1]][fig030106-1]
+
+derivative:
+
+\[ e^{-x} = r - x \]
+
+and
+
+\[ \frac{d}{dx} e^{-x} = \frac{d}{dx} (r - x) \]
+
+\(-e^{-x}=-1\), \(x=0\)
+
+\(r_c=1\)
+
 
 ##
 [0300]: #0300_introduction
@@ -78,6 +92,7 @@ linear stability analysis of fixed point: \( \dot{x} = f(x) = r - x^2 \)
 [fig030101]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030101.png
 [fig030103]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030103.png
 [fig030106]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030106.png
+[fig030106-1]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030106-1.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
