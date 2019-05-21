@@ -89,6 +89,15 @@
         </ul>
     
 
+    <li class="toctree-l2"><a href="#0302_transcritical_bifurcation">03.02. Transcritical Bifurcation</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#example_321">Example 3.2.1</a></li>
+        
+        </ul>
+    
+
     </ul>
 	    </li>
           
@@ -129,7 +138,7 @@ Filename:   note.md
 Project:    /Users/shume/Developer/NLDC/03
 Author:     shumez <https://github.com/shumez>
 Created:    2019-04-29 19:27:0
-Modified:   2019-05-21 18:20:56
+Modified:   2019-05-21 20:44:45
 -----
 Copyright (c) 2019 shumez
 -->
@@ -146,6 +155,10 @@ Copyright (c) 2019 shumez
 <li><a href="#example_311">Example 3.1.1</a></li>
 <li><a href="#example_312">Example 3.1.2</a></li>
 <li><a href="#030102_normal_forms">03.01.02. Normal Forms</a></li>
+</ul>
+</li>
+<li><a href="#0302_transcritical_bifurcation">03.02. Transcritical Bifurcation</a><ul>
+<li><a href="#example_321">Example 3.2.1</a></li>
 </ul>
 </li>
 </ul>
@@ -206,6 +219,35 @@ Copyright (c) 2019 shumez
 </script>
 </p>
 <p><a href="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030107.png"><img alt="Fig.3.1.7" src="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030107.png" /></a></p>
+<p>bifurcation at <script type="math/tex">x=x^\ast</script>, <script type="math/tex">r=r_c</script>
+Taylor's expansion</p>
+<p>
+<script type="math/tex; mode=display">
+    \begin{align*}
+        \dot{x} 
+        &= f(x, r) \\
+        &= f(x^\ast, r_c) + (x - x^\ast) \frac{\partial f}{\partial x} \Bigg|_{(x^\ast, r_c)} + (r - r_c) \frac{\partial f}{\partial r} \Bigg|_{(x^\ast, r_c)} + \frac{1}{2} (x - x^\ast)^2 \frac{\partial^2 f}{\partial x^2} \Bigg|_{(x^\ast, r_c)} + \cdots
+    \end{align*}
+</script>
+</p>
+<p>
+<script type="math/tex">f(x^\ast, r_c) = 0</script> (&lArr; <script type="math/tex">x^\ast</script> is fixed point), <script type="math/tex">\frac{\partial f}{\partial x}|_{(x^\ast, r_c)} = 0</script>
+</p>
+<p>
+<script type="math/tex; mode=display"> \dot{x} = a(r - r_c) + b(x - x^\ast) + \cdots \tag{3} </script>
+</p>
+<p>where <script type="math/tex">a = \frac{\partial f}{\partial x}|_{(x^\ast, r_c)}</script>, <script type="math/tex">b = \frac{1}{2} \frac{\partial^2 f}{\partial x^2}|_{(x^\ast, r_c)}</script>
+</p>
+<p><strong>normal forms</strong></p>
+<p>[Guckenheimier, Holmes (1983)][1983_Holmes_Guckenhemier], [Wiggins (1990)][1990_Wiggins]</p>
+<h2 id="0302_transcritical_bifurcation">03.02. Transcritical Bifurcation<a class="headerlink" href="#0302_transcritical_bifurcation" title="Permanent link">&para;</a></h2>
+<p><strong>transcritical bifurcation</strong></p>
+<p>
+<script type="math/tex; mode=display"> \dot{x} = rx - x^2 \tag{1} </script>
+</p>
+<p><a href="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030201.png"><img alt="Fig.3.2.1" src="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030201.png" /></a></p>
+<p><a href="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030202.png"><img alt="Fig.3.2.2" src="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030202.png" /></a></p>
+<h3 id="example_321">Example 3.2.1<a class="headerlink" href="#example_321" title="Permanent link">&para;</a></h3>
 <h2 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <!-- ref -->
 
@@ -267,5 +309,5 @@ Copyright (c) 2019 shumez
 
 <!--
 MkDocs version : 1.0.2
-Build Date UTC : 2019-05-21 09:27:17
+Build Date UTC : 2019-05-21 12:08:51
 -->
