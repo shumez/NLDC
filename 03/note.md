@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-05-21 20:19:12
+Modified: 	2019-05-21 20:42:16
 -----
 Copyright (c) 2019 shumez
 -->
@@ -19,6 +19,7 @@ Copyright (c) 2019 shumez
     * [Example 3.1.1][example311]
     * [Example 3.1.2][example312]
     * [03.01.02. Normal Forms][030102]
+* [03.02. Transcritical Bifurcation][0302]
 
 
 ## 03.00. Introduciton
@@ -116,6 +117,16 @@ where \(a = \frac{\partial f}{\partial x}|_{(x^\ast, r_c)}\), \(b = \frac{1}{2} 
 [Guckenheimier, Holmes (1983)][1983_Holmes_Guckenhemier], [Wiggins (1990)][1990_Wiggins]
 
 
+## 03.02. Transcritical Bifurcation
+
+**transcritical bifurcation**
+
+\[ \dot{x} = rx - x^2 \tag{1} \]
+
+[![Fig.3.2.1][fig030201]][fig030201]
+
+[![Fig.3.2.2][fig030201]][fig030201]
+
 ##
 [0300]: #0300_introduction
 [0301]: #0301_saddle-node_bifurcation
@@ -124,6 +135,7 @@ where \(a = \frac{\partial f}{\partial x}|_{(x^\ast, r_c)}\), \(b = \frac{1}{2} 
 [example311]: #example_311
 [example312]: #example_312
 [030102]: #030102_normal_forms
+[0302]: #0302_transcritical_bifurcation
 
 <!-- ref -->
 
@@ -133,6 +145,8 @@ where \(a = \frac{\partial f}{\partial x}|_{(x^\ast, r_c)}\), \(b = \frac{1}{2} 
 [fig030106]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030106.png
 [fig030106-1]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030106-1.png
 [fig030107]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030107.png
+[fig030201]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030201.png
+[fig030202]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030202.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
