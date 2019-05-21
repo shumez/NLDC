@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-05-21 18:20:56
+Modified: 	2019-05-21 20:15:58
 -----
 Copyright (c) 2019 shumez
 -->
@@ -94,6 +94,24 @@ Taylor expansion
 
 [![Fig.3.1.7][fig030107]][fig030107]
 
+bifurcation at \(x=x^\ast\), \(r=r_c\)
+Taylor's expansion
+
+\[
+    \begin{align*}
+        \dot{x} 
+        &= f(x, r) \\
+        &= f(x^\ast, r_c) + (x - x^\ast) \frac{\partial f}{\partial x} \Bigg|_{(x^\ast, r_c)} + (r - r_c) \frac{\partial f}{\partial r} \Bigg|_{(x^\ast, r_c)} + \frac{1}{2} (x - x^\ast)^2 \frac{\partial^2 f}{\partial x^2} \Bigg|_{(x^\ast, r_c)} + \cdots
+    \end{align*}
+\]
+
+\(f(x^\ast, r_c) = 0\) (&lArr; \(x^\ast\) is fixed point), \(\frac{\partial f}{\partial x}|_{(x^\ast, r_c)} = 0\) 
+
+\[ \dot{x} = a(r - r_c) + b(x - x^\ast) + \cdots \tag{3} \]
+
+where \(a = \frac{\partial f}{\partial x}|_{(x^\ast, r_c)}\), \(b = \frac{1}{2} \frac{\partial^2 f}{\partial x^2}|_{(x^\ast, r_c)}\)
+
+**normal forms**
 
 
 
