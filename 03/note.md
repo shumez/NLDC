@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-05-21 20:42:16
+Modified: 	2019-05-21 20:44:45
 -----
 Copyright (c) 2019 shumez
 -->
@@ -20,6 +20,7 @@ Copyright (c) 2019 shumez
     * [Example 3.1.2][example312]
     * [03.01.02. Normal Forms][030102]
 * [03.02. Transcritical Bifurcation][0302]
+    * [Example 3.2.1][example321]
 
 
 ## 03.00. Introduciton
@@ -125,7 +126,9 @@ where \(a = \frac{\partial f}{\partial x}|_{(x^\ast, r_c)}\), \(b = \frac{1}{2} 
 
 [![Fig.3.2.1][fig030201]][fig030201]
 
-[![Fig.3.2.2][fig030201]][fig030201]
+[![Fig.3.2.2][fig030202]][fig030202]
+
+### Example 3.2.1
 
 ##
 [0300]: #0300_introduction
@@ -136,6 +139,7 @@ where \(a = \frac{\partial f}{\partial x}|_{(x^\ast, r_c)}\), \(b = \frac{1}{2} 
 [example312]: #example_312
 [030102]: #030102_normal_forms
 [0302]: #0302_transcritical_bifurcation
+[example321]: #example_321
 
 <!-- ref -->
 
