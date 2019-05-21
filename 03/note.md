@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-05-21 16:20:12
+Modified: 	2019-05-21 16:47:1
 -----
 Copyright (c) 2019 shumez
 -->
@@ -17,6 +17,7 @@ Copyright (c) 2019 shumez
     * [03.01.01. Graphical Conventions][030101]
     * [03.01.02. Terminology][030102]
     * [Example 3.1.1][example311]
+    * [Example 3.1.2][example312]
 
 
 ## 03.00. Introduciton
@@ -41,6 +42,7 @@ bifurcation diagram
 
 **fold bifurcation** (aka, **tuning-point bifurcation**, **blue sky bifurcation**)
 
+[Abraham, Shaw (1988)][1988_Shaw_Abraham]
 
 \[ \dot{x} = r - x^2 \tag{2} \]
 
@@ -68,6 +70,7 @@ linear stability analysis of fixed point: \( \dot{x} = f(x) = r - x^2 \)
 [030101]: #030101_graphical_conventions
 [030102]: #030102_terminology
 [example311]: #example_311
+[example312]: #example_312
 
 <!-- ref -->
 
