@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-05-06 13:20:37
+Modified: 	2019-05-21 16:20:12
 -----
 Copyright (c) 2019 shumez
 -->
@@ -12,11 +12,11 @@ Copyright (c) 2019 shumez
 
 ## ToC
 
-* [03.00. Introduction](#0300_introduction)
-* [03.01. Saddle-Node Bifurcation](#0301_saddle-node_bifurcation)
-    * [03.01.01. Graphical Conventions](#030101_graphical_conventions)
-    * [03.01.02. Terminology](#030102_terminology)
-    * [Example 3.1.1](#example_311)
+* [03.00. Introduction][0300]
+* [03.01. Saddle-Node Bifurcation][0301]
+    * [03.01.01. Graphical Conventions][030101]
+    * [03.01.02. Terminology][030102]
+    * [Example 3.1.1][example311]
 
 
 ## 03.00. Introduciton
@@ -63,6 +63,11 @@ linear stability analysis of fixed point: \( \dot{x} = f(x) = r - x^2 \)
 [![Fig.3.1.6][fig030106]][fig030106]
 
 ##
+[0300]: #0300_introduction
+[0301]: #0301_saddle-node_bifurcation
+[030101]: #030101_graphical_conventions
+[030102]: #030102_terminology
+[example311]: #example_311
 
 <!-- ref -->
 
