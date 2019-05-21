@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-05-21 20:15:58
+Modified: 	2019-05-21 20:19:12
 -----
 Copyright (c) 2019 shumez
 -->
@@ -113,6 +113,7 @@ where \(a = \frac{\partial f}{\partial x}|_{(x^\ast, r_c)}\), \(b = \frac{1}{2} 
 
 **normal forms**
 
+[Guckenheimier, Holmes (1983)][1983_Holmes_Guckenhemier], [Wiggins (1990)][1990_Wiggins]
 
 
 ##
