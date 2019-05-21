@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/02
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:2
-Modified: 	2019-05-05 17:48:22
+Modified: 	2019-05-21 16:33:11
 -----
 Copyright (c) 2019 shumez
 -->
@@ -12,29 +12,29 @@ Copyright (c) 2019 shumez
 
 ## ToC
 
-* [02.00. Introduction](#0200_introduction)
-* [02.01. A Geometric way of Thinking](#0201_a_geometric_way_of_thinking)
-* [02.02. Fixed Points and Stability](#0202_fixed_points_and_stability)
-    * [Example 2.2.1](#example_221)
-    * [Example 2.2.2](#example_222)
-    * [Example 2.2.3](#example_223)
-* [02.03. Population Growth](#0203_population_growth)
-    * [02.03.01. Critique of the Logistic Model](#020301_critique_of_the_logistic_model)
-* [02.04. Linear Stability Analysis](#0204_linear_stability_analysis)
-    * [Example 2.4.1](#example_241)
-    * [Example 2.4.2](#example_242)
-    * [Example 2.4.3](#example_243)
-* [02.05. Existence and Uniquness](#0205_existence_and_uniquness)
-    * [Example 2.5.1](#example_251)
-    * [Example 2.5.2](#example_252)
-* [02.06. Impossibility of Oscillations](#0206_impossibility_of_oscillations)
-    * [02.06.01. Mechanical Analog: Overdamped Systems](#020601_mechanical_analog_overdamped_systems)
-* [02.07. Potentials](#0207_potentials)
-    * [Example 2.7.1](#example_271)
-    * [Example 2.7.2](#example_272)
-* [02.08. Solving Equations on the Computer](#0208_solving_equations_on_the_computer)
-    * [02.08.01. Euler's Method](#020801_eulers_method)
-    * [Example 2.8.1](#example_281)
+* [02.00. Introduction][0200]
+* [02.01. A Geometric way of Thinking][0201]
+* [02.02. Fixed Points and Stability][0202]
+    * [Example 2.2.1][example221]
+    * [Example 2.2.2][example222]
+    * [Example 2.2.3][example223]
+* [02.03. Population Growth][0203]
+    * [02.03.01. Critique of the Logistic Model][020301]
+* [02.04. Linear Stability Analysis][0204]
+    * [Example 2.4.1][example241]
+    * [Example 2.4.2][example242]
+    * [Example 2.4.3][example243]
+* [02.05. Existence and Uniquness][0205]
+    * [Example 2.5.1][example251]
+    * [Example 2.5.2][example252]
+* [02.06. Impossibility of Oscillations][0206]
+    * [02.06.01. Mechanical Analog: Overdamped Systems][020601]
+* [02.07. Potentials][0207]
+    * [Example 2.7.1][example271]
+    * [Example 2.7.2][example272]
+* [02.08. Solving Equations on the Computer][0208]
+    * [02.08.01. Euler's Method][020801]
+    * [Example 2.8.1][example281]
 
 
 
@@ -388,6 +388,29 @@ Solve the system \(\dot{x} = x (1 - x)\) numerically
 
 
 ##
+[0200]: #0200_introduction
+[0201]: #0201_a_geometric_way_of_thinking
+[0202]: #0202_fixed_points_and_stability
+[example221]: #example_221
+[example222]: #example_222
+[example223]: #example_223
+[0203]: #0203_population_growth
+[020301]: #020301_critique_of_the_logistic_model
+[0204]: #0204_linear_stability_analysis
+[example241]: #example241
+[example242]: #example242
+[example243]: #example243
+[0205]: #0205_existence_and_uniquness
+[example251]: #example251
+[example252]: #example252
+[0206]: #0206_impossibility_of_oscillations
+[020601]: #020601_mechanical_analog_overdamped_systems
+[0207]: #0207_potentials
+[example271]: #example_271
+[example272]: #example_272
+[0208]: #0208_solving_equations_on_the_computer
+[020801]: #020801_eulers_method
+[example281]: #example_281
 
 <!-- ref -->
 
