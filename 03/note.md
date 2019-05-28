@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-05-28 17:25:17
+Modified: 	2019-05-28 18:17:43
 -----
 Copyright (c) 2019 shumez
 -->
@@ -21,6 +21,10 @@ Copyright (c) 2019 shumez
     * [03.01.02. Normal Forms][030102]
 * [03.02. Transcritical Bifurcation][0302]
     * [Example 3.2.1][example321]
+    * [Example 3.2.2][example322]
+* [03.03. Laser Threshold][0303]
+    * [03.03.01. Physical Background][030301]
+    * [03.03.02. Model][030302]
 
 
 ## 03.00. Introduciton
@@ -188,6 +192,57 @@ near \(x = 1\)
 
 \[ X = v = \frac{u}{a} = \frac{1}{2} r(x-1) \]
 
+([Guckenheimer and Holmes (1983)][1983_Holmes_Guckenheimer], [Wiggins (1990)][1990_Wiggins], [Manneville (1990)][1990_Manneville])
+
+
+## 03.03. Laser Threshold
+
+[Hanken (1983)][1983_Hanken]
+
+### 03.03.01. Physical Background
+
+**solid-state laser**
+
+### 03.03.02. Model
+
+[Milonmi and Eberly (1988)][1988_Eberly_Milonmi]
+
+[Hanken (1983)][1983_Hanken]
+
+\(n(t)\): num of photons 
+
+\[
+    \begin{align*}
+        \dot{n} 
+        &= \text{gain} - \text{loss} \\
+        &= GnN - kn
+    \end{align*}
+\]
+
+**simulated emission**
+
+
+
+
+* \(N(t)\): num of excited atoms
+* \(G (>0)\): gain coef
+* \(k (>0)\): rate constant; 
+* \(\tau = \frac{1}{k}\): lifetime of photon in laser
+
+\[ N(t) = N_0 - \alpha n \]
+
+* \(\alpha\): rate at which atoms drop back to graund state
+
+Substitute: 
+\[
+    \begin{align*}
+        \dot{n} 
+        &= Gn(N_0 - \alpha n) - kn \\
+        &= (GN_0 - k) n - \alpha G n^2
+    \end{align*}
+\]
+
+[![Fig.3.3.2][fig030302]][fig030302]
 
 ##
 [0300]: #0300_introduction
@@ -199,8 +254,17 @@ near \(x = 1\)
 [030102]: #030102_normal_forms
 [0302]: #0302_transcritical_bifurcation
 [example321]: #example_321
+[example322]: #example_322
+[0303]: #0303_laser_threshold
+[030301]: #030301_physical_background
+[030302]: #030302_model
 
 <!-- ref -->
+[1983_Holmes_Guckenheimer]: . "Guckenheimer and Holmes (1983)"
+[1990_Wiggins]: . "Wiggins (1990)"
+[1990_Manneville]: . "Manneville (1990)"
+[1983_Hanken]: . "Hanken (1983)"
+[1988_Eberly_Milonmi]: . "Milonmi and Eberly (1988)"
 
 <!-- fig -->
 [fig030101]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030101.png
@@ -210,6 +274,7 @@ near \(x = 1\)
 [fig030107]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030107.png
 [fig030201]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030201.png
 [fig030202]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030202.png
+[fig030302]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030302.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
