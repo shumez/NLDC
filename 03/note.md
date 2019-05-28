@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-05-21 20:44:45
+Modified: 	2019-05-28 17:25:17
 -----
 Copyright (c) 2019 shumez
 -->
@@ -129,6 +129,65 @@ where \(a = \frac{\partial f}{\partial x}|_{(x^\ast, r_c)}\), \(b = \frac{1}{2} 
 [![Fig.3.2.2][fig030202]][fig030202]
 
 ### Example 3.2.1
+
+show the first-order system
+\[ \dot{x} = x(1 - x^2) - a(1 - e^{-hx}) \]
+
+*Solution*:
+
+\[ 
+    \begin{align*}
+        1 - e^{-hx} 
+        &= 1 - \Big[ 1 - bx + \frac{1}{2} b^2 x^2 + O(x^3) \Big] \\
+        &= bx - \frac{1}{2} b^2 x^2 + O(x^3)
+    \end{align*}
+\]
+
+\[
+    \begin{align*}
+        \dot{x}
+        &= x - a (bx - \frac{1}{2} b^2 x^2) + O(x^3) \\
+        &= (1 - ab) x + (\frac{1}{2} ab^2) x^2 + O(x^3)
+    \end{align*}
+\]
+
+\[ x^\ast \approx \frac{2 (ab - 1)}{ab^2} \]
+
+
+### Example 3.2.2
+
+analyze
+
+\[ \dot{x} = r\ln{x} + x - 1 \]
+
+near \(x = 1\)
+
+*Solution*:
+
+\(u := x-1\)
+
+\[
+    \begin{align*}
+        \dot{u} 
+        &= \dot{x} \\
+        &= r\ln{(1 + u)} + u \\
+        &= r \Big[ u - \frac{1}{2} u^2 + O(u^3) \Big] + u \\
+        &\approx (r + 1) u - \frac{1}{2} ru^2 + O(u^3)
+    \end{align*}
+\]
+
+\[ \dot{v} = (r + 1) v - (\frac{1}{2}ra) v^2 + O(v^3) \]
+
+\(a=\frac{2}{r}\)
+
+\[ \dot{v} = (r + 1)v - v^2 + O(v^3) \]
+
+\(R := r + 1\) and \(X := v\)
+
+\[ \dot{X} \approx RX - X^2 \]
+
+\[ X = v = \frac{u}{a} = \frac{1}{2} r(x-1) \]
+
 
 ##
 [0300]: #0300_introduction
