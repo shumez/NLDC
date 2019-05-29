@@ -378,7 +378,7 @@ Filename:   note.md
 Project:    /Users/shume/Developer/NLDC/03
 Author:     shumez <https://github.com/shumez>
 Created:    2019-04-29 19:27:0
-Modified:   2019-05-28 18:17:43
+Modified:   2019-05-28 20:45:57
 -----
 Copyright (c) 2019 shumez
 -->
@@ -472,7 +472,9 @@ Taylor's expansion</p>
     \begin{align*}
         \dot{x} 
         &= f(x, r) \\
-        &= f(x^\ast, r_c) + (x - x^\ast) \frac{\partial f}{\partial x} \Bigg|_{(x^\ast, r_c)} + (r - r_c) \frac{\partial f}{\partial r} \Bigg|_{(x^\ast, r_c)} + \frac{1}{2} (x - x^\ast)^2 \frac{\partial^2 f}{\partial x^2} \Bigg|_{(x^\ast, r_c)} + \cdots
+        &= f(x^\ast, r_c) + (x - x^\ast) \frac{\partial f}{\partial x} \Bigg|_{(x^\ast, r_c)} \\
+        &+ (r - r_c) \frac{\partial f}{\partial r} \Bigg|_{(x^\ast, r_c)} \\
+        &+ \frac{1}{2} (x - x^\ast)^2 \frac{\partial^2 f}{\partial x^2} \Bigg|_{(x^\ast, r_c)} + \cdots
     \end{align*}
 </script>
 </p>
