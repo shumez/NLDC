@@ -170,12 +170,12 @@
     
       
         <li class="toctree-l3">
-          <a class="toctree-l4" href="#example_311">Example 3.1.1</a>
+          <a class="toctree-l4" href="#example_030101">Example 03.01.01.</a>
         </li>
     
       
         <li class="toctree-l3">
-          <a class="toctree-l4" href="#example_312">Example 3.1.2</a>
+          <a class="toctree-l4" href="#example_030102">Example 03.01.02.</a>
         </li>
     
       
@@ -202,12 +202,12 @@
     
       
         <li class="toctree-l3">
-          <a class="toctree-l4" href="#example_321">Example 3.2.1</a>
+          <a class="toctree-l4" href="#example_030201">Example 03.02.01.</a>
         </li>
     
       
         <li class="toctree-l3">
-          <a class="toctree-l4" href="#example_322">Example 3.2.2</a>
+          <a class="toctree-l4" href="#example_030202">Example 03.02.02.</a>
         </li>
     
     </ul>
@@ -236,6 +236,48 @@
         <li class="toctree-l3">
           <a class="toctree-l4" href="#030302_model">03.03.02. Model</a>
         </li>
+    
+    </ul>
+  </li>
+
+      
+
+  <li class="toctree-l2">
+    <a href="#0304_pitchfork_bifurcation">
+      03.04. Pitchfork Bifurcation
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l2">
+    <ul class="subnav-l2 toc-hidden">
+    
+      
+          
+
+  <li class="toctree-l3 current with-children">
+    <a href="#030401_supercritical_pitchfork_bifurcation">
+      03.04.01. Supercritical Pitchfork Bifurcation
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l3 current">
+    <ul class="subnav-l3 current">
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#example_030401">Example 03.04.01.</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
     
     </ul>
   </li>
@@ -378,7 +420,7 @@ Filename:   note.md
 Project:    /Users/shume/Developer/NLDC/03
 Author:     shumez <https://github.com/shumez>
 Created:    2019-04-29 19:27:0
-Modified:   2019-05-28 20:45:57
+Modified:   2019-06-04 17:11:56
 -----
 Copyright (c) 2019 shumez
 -->
@@ -392,19 +434,24 @@ Copyright (c) 2019 shumez
 <li><a href="#03010101_terminology">03.01.01.01 Terminology</a></li>
 </ul>
 </li>
-<li><a href="#example_311">Example 3.1.1</a></li>
-<li><a href="#example_312">Example 3.1.2</a></li>
+<li><a href="#example_030101">Example 03.01.01.</a></li>
+<li><a href="#example_030102">Example 03.01.02.</a></li>
 <li><a href="#030102_normal_forms">03.01.02. Normal Forms</a></li>
 </ul>
 </li>
 <li><a href="#0302_transcritical_bifurcation">03.02. Transcritical Bifurcation</a><ul>
-<li><a href="#example_321">Example 3.2.1</a></li>
-<li><a href="#example_322">Example 3.2.2</a></li>
+<li><a href="#example_030201">Example 03.02.01.</a></li>
+<li><a href="#example_030202">Example 03.02.02.</a></li>
 </ul>
 </li>
 <li><a href="#0303_laser_threshold">03.03. Laser Threshold</a><ul>
 <li><a href="#030301_physical_background">03.03.01. Physical Background</a></li>
 <li><a href="#030302_model">03.03.02. Model</a></li>
+</ul>
+</li>
+<li><a href="#0304_pitchfork_bifurcation">03.04. Pitchfork Bifurcation</a><ul>
+<li><a href="#030401_supercritical_pitchfork_bifurcation">03.04.01. Supercritical Pitchfork Bifurcation</a></li>
+<li><a href="#example_030401">Example 03.04.01.</a></li>
 </ul>
 </li>
 </ul>
@@ -424,14 +471,14 @@ Copyright (c) 2019 shumez
 <p>
 <script type="math/tex; mode=display"> \dot{x} = r - x^2 \tag{2} </script>
 </p>
-<h3 id="example_311">Example 3.1.1<a class="headerlink" href="#example_311" title="Permanent link">&para;</a></h3>
+<h3 id="example_030101">Example 03.01.01.<a class="headerlink" href="#example_030101" title="Permanent link">&para;</a></h3>
 <p>linear stability analysis of fixed point: <script type="math/tex"> \dot{x} = f(x) = r - x^2 </script>
 </p>
 <p><em>Solution</em></p>
 <p>
 <script type="math/tex">x^\ast = \pm \sqrt{r}</script>
 </p>
-<h3 id="example_312">Example 3.1.2<a class="headerlink" href="#example_312" title="Permanent link">&para;</a></h3>
+<h3 id="example_030102">Example 03.01.02.<a class="headerlink" href="#example_030102" title="Permanent link">&para;</a></h3>
 <p>
 <script type="math/tex; mode=display"> \dot{x} = r - x - e^{-x} </script>
 </p>
@@ -487,7 +534,7 @@ Taylor's expansion</p>
 <p>where <script type="math/tex">a = \frac{\partial f}{\partial x}|_{(x^\ast, r_c)}</script>, <script type="math/tex">b = \frac{1}{2} \frac{\partial^2 f}{\partial x^2}|_{(x^\ast, r_c)}</script>
 </p>
 <p><strong>normal forms</strong></p>
-<p>[Guckenheimier, Holmes (1983)][1983_Holmes_Guckenhemier], <a href="." title="Wiggins (1990)">Wiggins (1990)</a></p>
+<p><a href="#030102" title="Guckenheimer and Holmes (1983)">Guckenheimier, Holmes (1983)</a>, <a href="#030102" title="Wiggins (1990)">Wiggins (1990)</a></p>
 <h2 id="0302_transcritical_bifurcation">03.02. Transcritical Bifurcation<a class="headerlink" href="#0302_transcritical_bifurcation" title="Permanent link">&para;</a></h2>
 <p><strong>transcritical bifurcation</strong></p>
 <p>
@@ -495,7 +542,7 @@ Taylor's expansion</p>
 </p>
 <p><a href="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030201.png"><img alt="Fig.3.2.1" src="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030201.png" /></a></p>
 <p><a href="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030202.png"><img alt="Fig.3.2.2" src="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030202.png" /></a></p>
-<h3 id="example_321">Example 3.2.1<a class="headerlink" href="#example_321" title="Permanent link">&para;</a></h3>
+<h3 id="example_030201">Example 03.02.01.<a class="headerlink" href="#example_030201" title="Permanent link">&para;</a></h3>
 <p>show the first-order system
 <script type="math/tex; mode=display"> \dot{x} = x(1 - x^2) - a(1 - e^{-hx}) </script>
 </p>
@@ -521,7 +568,7 @@ Taylor's expansion</p>
 <p>
 <script type="math/tex; mode=display"> x^\ast \approx \frac{2 (ab - 1)}{ab^2} </script>
 </p>
-<h3 id="example_322">Example 3.2.2<a class="headerlink" href="#example_322" title="Permanent link">&para;</a></h3>
+<h3 id="example_030202">Example 03.02.02.<a class="headerlink" href="#example_030202" title="Permanent link">&para;</a></h3>
 <p>analyze</p>
 <p>
 <script type="math/tex; mode=display"> \dot{x} = r\ln{x} + x - 1 </script>
@@ -561,14 +608,16 @@ Taylor's expansion</p>
 <p>
 <script type="math/tex; mode=display"> X = v = \frac{u}{a} = \frac{1}{2} r(x-1) </script>
 </p>
-<p>(<a href="." title="Guckenheimer and Holmes (1983)">Guckenheimer and Holmes (1983)</a>, <a href="." title="Wiggins (1990)">Wiggins (1990)</a>, <a href="." title="Manneville (1990)">Manneville (1990)</a>)</p>
+<p>(<a href="#030102" title="Guckenheimer and Holmes (1983)">Guckenheimer and Holmes (1983)</a>, <a href="#030102" title="Wiggins (1990)">Wiggins (1990)</a>, <a href="#example_030202" title="Manneville (1990)">Manneville (1990)</a>)</p>
 <h2 id="0303_laser_threshold">03.03. Laser Threshold<a class="headerlink" href="#0303_laser_threshold" title="Permanent link">&para;</a></h2>
-<p><a href="." title="Hanken (1983)">Hanken (1983)</a></p>
+<p><a href="#0303" title="Hanken (1983)">Hanken (1983)</a></p>
 <h3 id="030301_physical_background">03.03.01. Physical Background<a class="headerlink" href="#030301_physical_background" title="Permanent link">&para;</a></h3>
 <p><strong>solid-state laser</strong></p>
 <h3 id="030302_model">03.03.02. Model<a class="headerlink" href="#030302_model" title="Permanent link">&para;</a></h3>
-<p><a href="." title="Milonmi and Eberly (1988)">Milonmi and Eberly (1988)</a></p>
-<p><a href="." title="Hanken (1983)">Hanken (1983)</a></p>
+<p><a href="#030302" title="Milonmi and Eberly (1988)">Milonmi and Eberly (1988)</a></p>
+<p><a href="#0303" title="Hanken (1983)">Hanken (1983)</a></p>
+<p><a href="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030302.png"><img alt="Fig.3.3.2" src="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030302.png" /></a></p>
+<p><a href="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030303.png"><img alt="Fig.3.3.3" src="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030303.png" /></a></p>
 <p>
 <script type="math/tex">n(t)</script>: num of photons </p>
 <p>
@@ -607,7 +656,19 @@ Taylor's expansion</p>
     \end{align*}
 </script>
 </p>
-<p><a href="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030302.png"><img alt="Fig.3.3.2" src="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030302.png" /></a></p>
+<h2 id="0304_pitchfork_bifurcation">03.04. Pitchfork Bifurcation<a class="headerlink" href="#0304_pitchfork_bifurcation" title="Permanent link">&para;</a></h2>
+<p><strong>Pitchfork bifurcation</strong></p>
+<p><strong>symmetry</strong></p>
+<h3 id="030401_supercritical_pitchfork_bifurcation">03.04.01. Supercritical Pitchfork Bifurcation<a class="headerlink" href="#030401_supercritical_pitchfork_bifurcation" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex; mode=display"> \dot{x} = rx - x^3 \tag{1} </script>
+</p>
+<p><a href="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030401.png"><img alt="Fig.3.4.1" src="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030401.png" /></a></p>
+<p><a href="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030402.png"><img alt="Fig.3.4.2" src="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030402.png" /></a></p>
+<h4 id="example_030401">Example 03.04.01.<a class="headerlink" href="#example_030401" title="Permanent link">&para;</a></h4>
+<p>
+<script type="math/tex; mode=display"> \dot{x} = - x + \beta \tanh{x} </script>
+</p>
 <h2 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <!-- ref -->
 
