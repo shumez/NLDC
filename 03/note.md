@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-06-04 16:27:28
+Modified: 	2019-06-04 17:11:56
 -----
 Copyright (c) 2019 shumez
 -->
@@ -25,6 +25,9 @@ Copyright (c) 2019 shumez
 * [03.03. Laser Threshold][0303]
     * [03.03.01. Physical Background][030301]
     * [03.03.02. Model][030302]
+* [03.04. Pitchfork Bifurcation][0304]
+    * [03.04.01. Supercritical Pitchfork Bifurcation][030401]
+    * [Example 03.04.01.][example030401]
 
 
 ## 03.00. Introduciton
@@ -248,6 +251,28 @@ Substitute:
 \]
 
 
+## 03.04. Pitchfork Bifurcation
+
+**Pitchfork bifurcation**
+
+**symmetry**
+
+
+### 03.04.01. Supercritical Pitchfork Bifurcation
+
+\[ \dot{x} = rx - x^3 \tag{1} \]
+
+[![Fig.3.4.1][fig030401]][fig030401]
+
+[![Fig.3.4.2][fig030402]][fig030402]
+
+
+#### Example 03.04.01.
+
+\[ \dot{x} = - x + \beta \tanh{x} \]
+
+
+
 
 ##
 [0300]: #0300_introduction
@@ -263,11 +288,14 @@ Substitute:
 [0303]: #0303_laser_threshold
 [030301]: #030301_physical_background
 [030302]: #030302_model
+[0304]: #0304_pitchfork_bifurcation
+[030401]: #030401_supercritical_pitchfork_bifurcation
+[example030401]: #example_030401
 
 <!-- ref -->
 [1983_Holmes_Guckenheimier]: #030102 "Guckenheimer and Holmes (1983)"
 [1990_Wiggins]: #030102 "Wiggins (1990)"
-[1990_Manneville]: #example_322 "Manneville (1990)"
+[1990_Manneville]: #example_030202 "Manneville (1990)"
 [1983_Hanken]: #0303 "Hanken (1983)"
 [1988_Eberly_Milonmi]: #030302 "Milonmi and Eberly (1988)"
 
@@ -281,6 +309,8 @@ Substitute:
 [fig030202]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030202.png
 [fig030302]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030302.png
 [fig030303]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030303.png
+[fig030401]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030401.png
+[fig030402]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030402.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
