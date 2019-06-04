@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-05-28 20:45:57
+Modified: 	2019-06-04 16:12:22
 -----
 Copyright (c) 2019 shumez
 -->
@@ -121,7 +121,7 @@ where \(a = \frac{\partial f}{\partial x}|_{(x^\ast, r_c)}\), \(b = \frac{1}{2} 
 
 **normal forms**
 
-[Guckenheimier, Holmes (1983)][1983_Holmes_Guckenhemier], [Wiggins (1990)][1990_Wiggins]
+[Guckenheimier, Holmes (1983)][1983_Holmes_Guckenheimier], [Wiggins (1990)][1990_Wiggins]
 
 
 ## 03.02. Transcritical Bifurcation
@@ -194,7 +194,7 @@ near \(x = 1\)
 
 \[ X = v = \frac{u}{a} = \frac{1}{2} r(x-1) \]
 
-([Guckenheimer and Holmes (1983)][1983_Holmes_Guckenheimer], [Wiggins (1990)][1990_Wiggins], [Manneville (1990)][1990_Manneville])
+([Guckenheimer and Holmes (1983)][1983_Holmes_Guckenheimier], [Wiggins (1990)][1990_Wiggins], [Manneville (1990)][1990_Manneville])
 
 
 ## 03.03. Laser Threshold
@@ -262,11 +262,11 @@ Substitute:
 [030302]: #030302_model
 
 <!-- ref -->
-[1983_Holmes_Guckenheimer]: . "Guckenheimer and Holmes (1983)"
-[1990_Wiggins]: . "Wiggins (1990)"
-[1990_Manneville]: . "Manneville (1990)"
-[1983_Hanken]: . "Hanken (1983)"
-[1988_Eberly_Milonmi]: . "Milonmi and Eberly (1988)"
+[1983_Holmes_Guckenheimier]: #030102 "Guckenheimer and Holmes (1983)"
+[1990_Wiggins]: #030102 "Wiggins (1990)"
+[1990_Manneville]: #example_322 "Manneville (1990)"
+[1983_Hanken]: #0303 "Hanken (1983)"
+[1988_Eberly_Milonmi]: #030302 "Milonmi and Eberly (1988)"
 
 <!-- fig -->
 [fig030101]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030101.png
