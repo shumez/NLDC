@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-06-04 17:11:56
+Modified: 	2019-06-04 18:15:10
 -----
 Copyright (c) 2019 shumez
 -->
@@ -271,6 +271,11 @@ Substitute:
 
 \[ \dot{x} = - x + \beta \tanh{x} \]
 
+[![Fig.3.4.3][fig030403]][fig030403]
+
+
+[![Fig.3.4.4][fig030404]][fig030404]
+
 
 
 
@@ -311,6 +316,8 @@ Substitute:
 [fig030303]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030303.png
 [fig030401]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030401.png
 [fig030402]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030402.png
+[fig030403]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030403.png
+[fig030404]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030404.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
