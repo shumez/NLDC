@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-06-04 16:16:54
+Modified: 	2019-06-04 16:27:28
 -----
 Copyright (c) 2019 shumez
 -->
@@ -211,6 +211,10 @@ near \(x = 1\)
 
 [Hanken (1983)][1983_Hanken]
 
+[![Fig.3.3.2][fig030302]][fig030302]
+
+[![Fig.3.3.3][fig030303]][fig030303]
+
 \(n(t)\): num of photons 
 
 \[
@@ -222,7 +226,6 @@ near \(x = 1\)
 \]
 
 **simulated emission**
-
 
 
 
@@ -244,7 +247,7 @@ Substitute:
     \end{align*}
 \]
 
-[![Fig.3.3.2][fig030302]][fig030302]
+
 
 ##
 [0300]: #0300_introduction
@@ -277,6 +280,7 @@ Substitute:
 [fig030201]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030201.png
 [fig030202]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030202.png
 [fig030302]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030302.png
+[fig030303]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030303.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
