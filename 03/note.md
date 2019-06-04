@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-06-04 16:12:22
+Modified: 	2019-06-04 16:16:54
 -----
 Copyright (c) 2019 shumez
 -->
@@ -16,12 +16,12 @@ Copyright (c) 2019 shumez
 * [03.01. Saddle-Node Bifurcation][0301]
     * [03.01.01. Graphical Conventions][030101]
         * [03.01.01.01 Terminology][03010101]
-    * [Example 3.1.1][example311]
-    * [Example 3.1.2][example312]
+    * [Example 03.01.01.][example030101]
+    * [Example 03.01.02.][example030102]
     * [03.01.02. Normal Forms][030102]
 * [03.02. Transcritical Bifurcation][0302]
-    * [Example 3.2.1][example321]
-    * [Example 3.2.2][example322]
+    * [Example 03.02.01.][example030201]
+    * [Example 03.02.02.][example030202]
 * [03.03. Laser Threshold][0303]
     * [03.03.01. Physical Background][030301]
     * [03.03.02. Model][030302]
@@ -53,7 +53,7 @@ bifurcation diagram
 
 \[ \dot{x} = r - x^2 \tag{2} \]
 
-### Example 3.1.1
+### Example 03.01.01.
 
 linear stability analysis of fixed point: \( \dot{x} = f(x) = r - x^2 \)
 
@@ -62,7 +62,7 @@ linear stability analysis of fixed point: \( \dot{x} = f(x) = r - x^2 \)
 \(x^\ast = \pm \sqrt{r}\)
 
 
-### Example 3.1.2
+### Example 03.01.02.
 
 \[ \dot{x} = r - x - e^{-x} \]
 
@@ -134,7 +134,7 @@ where \(a = \frac{\partial f}{\partial x}|_{(x^\ast, r_c)}\), \(b = \frac{1}{2} 
 
 [![Fig.3.2.2][fig030202]][fig030202]
 
-### Example 3.2.1
+### Example 03.02.01.
 
 show the first-order system
 \[ \dot{x} = x(1 - x^2) - a(1 - e^{-hx}) \]
@@ -160,7 +160,7 @@ show the first-order system
 \[ x^\ast \approx \frac{2 (ab - 1)}{ab^2} \]
 
 
-### Example 3.2.2
+### Example 03.02.02.
 
 analyze
 
@@ -251,12 +251,12 @@ Substitute:
 [0301]: #0301_saddle-node_bifurcation
 [030101]: #030101_graphical_conventions
 [03010101]: #03010101_terminology
-[example311]: #example_311
-[example312]: #example_312
+[example030101]: #example_030101
+[example030102]: #example_030102
 [030102]: #030102_normal_forms
 [0302]: #0302_transcritical_bifurcation
-[example321]: #example_321
-[example322]: #example_322
+[example030201]: #example_030201
+[example030202]: #example_030202
 [0303]: #0303_laser_threshold
 [030301]: #030301_physical_background
 [030302]: #030302_model
