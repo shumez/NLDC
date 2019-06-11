@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-06-11 17:01:49
+Modified: 	2019-06-11 17:03:32
 -----
 Copyright (c) 2019 shumez
 -->
@@ -267,7 +267,7 @@ Substitute:
 [![Fig.3.4.2][fig030402]][fig030402]
 
 
-#### Example 03.04.01.
+### Example 03.04.01.
 
 \[ \dot{x} = - x + \beta \tanh{x} \]
 
