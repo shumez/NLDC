@@ -293,6 +293,17 @@
 
 
 
+  <li class="toctree-l2">
+    <ul class="subnav-l2 toc-hidden">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#030501_analysis_of_the_first-order_system">03.05.01. Analysis of the First-Order System</a>
+        </li>
+    
+    </ul>
+  </li>
+
 
   
         
@@ -431,7 +442,7 @@ Filename:   note.md
 Project:    /Users/shume/Developer/NLDC/03
 Author:     shumez <https://github.com/shumez>
 Created:    2019-04-29 19:27:0
-Modified:   2019-06-11 18:25:2
+Modified:   2019-06-11 21:12:31
 -----
 Copyright (c) 2019 shumez
 -->
@@ -468,7 +479,10 @@ Copyright (c) 2019 shumez
 <li><a href="#030403_terminology">03.04.03. Terminology</a></li>
 </ul>
 </li>
-<li><a href="#0305_overdamped_bead_on_a_rotating_hoop">03.05. Overdamped Bead on a Rotating Hoop</a></li>
+<li><a href="#0305_overdamped_bead_on_a_rotating_hoop">03.05. Overdamped Bead on a Rotating Hoop</a><ul>
+<li><a href="#030501_analysis_of_the_first-order_system">03.05.01. Analysis of the First-Order System</a></li>
+</ul>
+</li>
 </ul>
 <h2 id="0300_introduciton">03.00. Introduciton<a class="headerlink" href="#0300_introduciton" title="Permanent link">&para;</a></h2>
 <p><strong>birfurcation</strong></p>
@@ -729,6 +743,38 @@ Taylor's expansion</p>
 </li>
 </ul>
 <p><a href="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030502.png"><img alt="Fig.3.5.2" src="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030502.png" /></a></p>
+<p>
+<script type="math/tex; mode=display"> 
+    \begin{align*}
+        mr\ddot{\phi} = - b\dot{\phi} - mg\sin \phi + mr\omega^2 \sin \phi \cos \phi
+        \tag{3.5.1}
+    \end{align*}
+</script>
+</p>
+<h3 id="030501_analysis_of_the_first-order_system">03.05.01. Analysis of the First-Order System<a class="headerlink" href="#030501_analysis_of_the_first-order_system" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex; mode=display">
+    \begin{align*}
+        b \dot{\phi} 
+        &= - mg \sin \phi + mr\omega^2 \sin \phi \cos \phi \\
+        &= mg \sin \phi \Big( \frac{r\omega^2}{g} \cos \phi - 1 \Big)
+    \end{align*}
+    \tag{3.5.2}
+</script>
+</p>
+<p>where <script type="math/tex">\sin\phi = 0</script>, <script type="math/tex">\phi^* = 0, \pi</script>
+</p>
+<p>additional fixed points, if <script type="math/tex">\frac{r\omega^2}{g} > 1</script>
+</p>
+<p>
+<script type="math/tex; mode=display"> \phi^* = ± \cos^{-1} \bigg( \frac{g}{r\omega^2} \bigg) </script>
+</p>
+<p>introduce param <script type="math/tex">\gamma</script>
+<script type="math/tex">\gamma := \frac{r\omega^2}{g} </script>
+</p>
+<p>solve <script type="math/tex"> \cos{\phi^*} = \frac{1}{\gamma} </script>
+</p>
+<p><a href="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030506.png"><img alt="Fig.3.5.6" src="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030506.png" /></a></p>
 <h2 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <!-- toc -->
 
