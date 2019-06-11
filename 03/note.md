@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-06-11 17:42:58
+Modified: 	2019-06-11 18:25:2
 -----
 Copyright (c) 2019 shumez
 -->
@@ -31,6 +31,7 @@ Copyright (c) 2019 shumez
     * [Example 03.04.02.][ex030402]
     * [03.04.02. Subcritical Pitchfork Bifurcation][030402]
     * [03.04.03. Terminology][030403]
+* [03.05. Overdamped Bead on a Rotating Hoop][0305]
 
 
 ## 03.00. Introduciton
@@ -313,6 +314,15 @@ Plot potential \(V(x)\) for the system \(\dot{x} = rx = x^3\)
     * hard/dangerous
 
 
+## 03.05. Overdamped Bead on a Rotating Hoop
+
+Let 
+
+* \(\phi\): angle (\(-\pi < \phi ≤ \pi\))
+* \(\rho := r \sin{\phi}\)
+
+[![Fig.3.5.2][fig030502]][fig030502]
+
 
 ##
 <!-- toc -->
@@ -335,6 +345,7 @@ Plot potential \(V(x)\) for the system \(\dot{x} = rx = x^3\)
 [ex030402]: #example_030402
 [030402]: #030402_subcritical_pitchfork_bifurcation
 [030403]: #030403_terminology
+[0305]: #0305_overdamped_bead_on_a_rotating_hoop
 
 <!-- ref -->
 [1983_Holmes_Guckenheimier]: #030102 "Guckenheimer and Holmes (1983)"
@@ -360,6 +371,7 @@ Plot potential \(V(x)\) for the system \(\dot{x} = rx = x^3\)
 [fig030405]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030405.png
 [fig030406]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030406.png
 [fig030407]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030407.png
+[fig030502]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030502.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
