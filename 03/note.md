@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-06-11 17:03:32
+Modified: 	2019-06-11 17:03:58
 -----
 Copyright (c) 2019 shumez
 -->
@@ -276,7 +276,7 @@ Substitute:
 
 [![Fig.3.4.4][fig030404]][fig030404]
 
-#### Example 03.04.02.
+### Example 03.04.02.
 
 [![Fig.3.4.5][fig030405]][fig030405]
 
