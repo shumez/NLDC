@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-06-11 17:03:58
+Modified: 	2019-06-11 17:40:36
 -----
 Copyright (c) 2019 shumez
 -->
@@ -28,6 +28,8 @@ Copyright (c) 2019 shumez
 * [03.04. Pitchfork Bifurcation][0304]
     * [03.04.01. Supercritical Pitchfork Bifurcation][030401]
     * [Example 03.04.01.][ex030401]
+    * [Example 03.04.02.][ex030402]
+    * [03.04.02. Subcritical Pitchfork Bifurcation][030402]
 
 
 ## 03.00. Introduciton
@@ -289,9 +291,15 @@ Plot potential \(V(x)\) for the system \(\dot{x} = rx = x^3\)
 \(V(x) = -\frac{1}{2}rx^2 + \frac{1}{4} x^4\)
 
 
+### 03.04.02. Subcritical Pitchfork Bifurcation
 
+[![Fig.3.4.6][fig030406]][fig030406]
 
+\[ \dot{x} = rx + x^3 \tag{2} \]
 
+[![Fig.3.4.7][fig030407]][fig030407]
+
+\[ \dot{x} = rx + x^3 - x^5 \tag{3} \]
 
 
 
@@ -315,6 +323,8 @@ Plot potential \(V(x)\) for the system \(\dot{x} = rx = x^3\)
 [0304]: #0304_pitchfork_bifurcation
 [030401]: #030401_supercritical_pitchfork_bifurcation
 [ex030401]: #example_030401
+[ex030402]: #example_030402
+[030402]: #030402_subcritical_pitchfork_bifurcation
 
 <!-- ref -->
 [1983_Holmes_Guckenheimier]: #030102 "Guckenheimer and Holmes (1983)"
@@ -338,6 +348,8 @@ Plot potential \(V(x)\) for the system \(\dot{x} = rx = x^3\)
 [fig030403]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030403.png
 [fig030404]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030404.png
 [fig030405]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030405.png
+[fig030406]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030406.png
+[fig030407]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030407.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
