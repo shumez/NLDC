@@ -3,31 +3,31 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-06-04 20:18:24
+Modified: 	2019-06-11 17:01:49
 -----
 Copyright (c) 2019 shumez
 -->
 
 # 03. Bifurcations
 
-## ToC
+## Contents
 
 * [03.00. Introduction][0300]
 * [03.01. Saddle-Node Bifurcation][0301]
     * [03.01.01. Graphical Conventions][030101]
         * [03.01.01.01 Terminology][03010101]
-    * [Example 03.01.01.][example030101]
-    * [Example 03.01.02.][example030102]
+    * [Example 03.01.01.][ex030101]
+    * [Example 03.01.02.][ex030102]
     * [03.01.02. Normal Forms][030102]
 * [03.02. Transcritical Bifurcation][0302]
-    * [Example 03.02.01.][example030201]
-    * [Example 03.02.02.][example030202]
+    * [Example 03.02.01.][ex030201]
+    * [Example 03.02.02.][ex030202]
 * [03.03. Laser Threshold][0303]
     * [03.03.01. Physical Background][030301]
     * [03.03.02. Model][030302]
 * [03.04. Pitchfork Bifurcation][0304]
     * [03.04.01. Supercritical Pitchfork Bifurcation][030401]
-    * [Example 03.04.01.][example030401]
+    * [Example 03.04.01.][ex030401]
 
 
 ## 03.00. Introduciton
@@ -303,18 +303,18 @@ Plot potential \(V(x)\) for the system \(\dot{x} = rx = x^3\)
 [0301]: #0301_saddle-node_bifurcation
 [030101]: #030101_graphical_conventions
 [03010101]: #03010101_terminology
-[example030101]: #example_030101
-[example030102]: #example_030102
+[ex030101]: #example_030101
+[ex030102]: #example_030102
 [030102]: #030102_normal_forms
 [0302]: #0302_transcritical_bifurcation
-[example030201]: #example_030201
-[example030202]: #example_030202
+[ex030201]: #example_030201
+[ex030202]: #example_030202
 [0303]: #0303_laser_threshold
 [030301]: #030301_physical_background
 [030302]: #030302_model
 [0304]: #0304_pitchfork_bifurcation
 [030401]: #030401_supercritical_pitchfork_bifurcation
-[example030401]: #example_030401
+[ex030401]: #example_030401
 
 <!-- ref -->
 [1983_Holmes_Guckenheimier]: #030102 "Guckenheimer and Holmes (1983)"
