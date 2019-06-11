@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-06-11 18:25:2
+Modified: 	2019-06-11 21:12:31
 -----
 Copyright (c) 2019 shumez
 -->
@@ -32,6 +32,7 @@ Copyright (c) 2019 shumez
     * [03.04.02. Subcritical Pitchfork Bifurcation][030402]
     * [03.04.03. Terminology][030403]
 * [03.05. Overdamped Bead on a Rotating Hoop][0305]
+    * [03.05.01. Analysis of the First-Order System][030501]
 
 
 ## 03.00. Introduciton
@@ -323,6 +324,37 @@ Let
 
 [![Fig.3.5.2][fig030502]][fig030502]
 
+\[ 
+    \begin{align*}
+        mr\ddot{\phi} = - b\dot{\phi} - mg\sin \phi + mr\omega^2 \sin \phi \cos \phi
+        \tag{3.5.1}
+    \end{align*}
+\]
+
+### 03.05.01. Analysis of the First-Order System
+
+\[
+    \begin{align*}
+        b \dot{\phi} 
+        &= - mg \sin \phi + mr\omega^2 \sin \phi \cos \phi \\
+        &= mg \sin \phi \Big( \frac{r\omega^2}{g} \cos \phi - 1 \Big)
+    \end{align*}
+    \tag{3.5.2}
+\]
+
+where \(\sin\phi = 0\), \(\phi^* = 0, \pi\)
+
+additional fixed points, if \(\frac{r\omega^2}{g} > 1\)
+
+\[ \phi^* = ± \cos^{-1} \bigg( \frac{g}{r\omega^2} \bigg) \]
+
+introduce param \(\gamma\)
+\(\gamma := \frac{r\omega^2}{g} \)
+
+solve \( \cos{\phi^*} = \frac{1}{\gamma} \)
+
+[![Fig.3.5.6][fig030506]][fig030506]
+
 
 ##
 <!-- toc -->
@@ -346,6 +378,7 @@ Let
 [030402]: #030402_subcritical_pitchfork_bifurcation
 [030403]: #030403_terminology
 [0305]: #0305_overdamped_bead_on_a_rotating_hoop
+[030501]: #030501_analysis_of_the_first-order_system
 
 <!-- ref -->
 [1983_Holmes_Guckenheimier]: #030102 "Guckenheimer and Holmes (1983)"
@@ -372,6 +405,7 @@ Let
 [fig030406]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030406.png
 [fig030407]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030407.png
 [fig030502]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030502.png
+[fig030506]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030506.png
 
 <style type="text/css">
 	img{width: 51%; float: right;}
