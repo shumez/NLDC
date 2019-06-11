@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-06-11 17:40:36
+Modified: 	2019-06-11 17:42:58
 -----
 Copyright (c) 2019 shumez
 -->
@@ -30,6 +30,7 @@ Copyright (c) 2019 shumez
     * [Example 03.04.01.][ex030401]
     * [Example 03.04.02.][ex030402]
     * [03.04.02. Subcritical Pitchfork Bifurcation][030402]
+    * [03.04.03. Terminology][030403]
 
 
 ## 03.00. Introduciton
@@ -302,6 +303,14 @@ Plot potential \(V(x)\) for the system \(\dot{x} = rx = x^3\)
 \[ \dot{x} = rx + x^3 - x^5 \tag{3} \]
 
 
+### 03.04.03. Terminology
+
+* Supercritial pitchfork
+    * aka, **Forward** bifurcation
+    * soft/safe
+* Subcritical pitchfork
+    * aka, **Backward** bifurcation
+    * hard/dangerous
 
 
 
@@ -325,6 +334,7 @@ Plot potential \(V(x)\) for the system \(\dot{x} = rx = x^3\)
 [ex030401]: #example_030401
 [ex030402]: #example_030402
 [030402]: #030402_subcritical_pitchfork_bifurcation
+[030403]: #030403_terminology
 
 <!-- ref -->
 [1983_Holmes_Guckenheimier]: #030102 "Guckenheimer and Holmes (1983)"
