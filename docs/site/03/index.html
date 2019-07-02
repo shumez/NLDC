@@ -301,6 +301,11 @@
           <a class="toctree-l4" href="#030501_analysis_of_the_first-order_system">03.05.01. Analysis of the First-Order System</a>
         </li>
     
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#030502_dimensional_analysis_and_scaling">03.05.02. Dimensional Analysis and Scaling</a>
+        </li>
+    
     </ul>
   </li>
 
@@ -442,7 +447,7 @@ Filename:   note.md
 Project:    /Users/shume/Developer/NLDC/03
 Author:     shumez <https://github.com/shumez>
 Created:    2019-04-29 19:27:0
-Modified:   2019-06-11 21:12:31
+Modified:   2019-07-02 18:09:22
 -----
 Copyright (c) 2019 shumez
 -->
@@ -481,6 +486,7 @@ Copyright (c) 2019 shumez
 </li>
 <li><a href="#0305_overdamped_bead_on_a_rotating_hoop">03.05. Overdamped Bead on a Rotating Hoop</a><ul>
 <li><a href="#030501_analysis_of_the_first-order_system">03.05.01. Analysis of the First-Order System</a></li>
+<li><a href="#030502_dimensional_analysis_and_scaling">03.05.02. Dimensional Analysis and Scaling</a></li>
 </ul>
 </li>
 </ul>
@@ -769,12 +775,78 @@ Taylor's expansion</p>
 <p>
 <script type="math/tex; mode=display"> \phi^* = ± \cos^{-1} \bigg( \frac{g}{r\omega^2} \bigg) </script>
 </p>
-<p>introduce param <script type="math/tex">\gamma</script>
-<script type="math/tex">\gamma := \frac{r\omega^2}{g} </script>
+<p>introduce param <script type="math/tex">\gamma</script>,<br />
+<script type="math/tex">\gamma = \frac{r\omega^2}{g} </script>
 </p>
 <p>solve <script type="math/tex"> \cos{\phi^*} = \frac{1}{\gamma} </script>
 </p>
 <p><a href="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030506.png"><img alt="Fig.3.5.6" src="https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/030506.png" /></a></p>
+<h3 id="030502_dimensional_analysis_and_scaling">03.05.02. Dimensional Analysis and Scaling<a class="headerlink" href="#030502_dimensional_analysis_and_scaling" title="Permanent link">&para;</a></h3>
+<p>when valid to neglect the inertia term <script type="math/tex">mr\ddot{\phi}</script> ?</p>
+<p><strong>dimensionless</strong> form (<a href="https://books.google.co.jp/books/about/Mathematics_Applied_to_Deterministic_Pro.html?id=fCwv7JlIE9IC&amp;redir_esc=y" title="C.C. Lin and L.A. Segel (1988)">C.C. Lin and L.A. Segel (1988)</a>)</p>
+<p>dimentionless time 
+<script type="math/tex; mode=display"> \tau := \frac{t}{T} </script>
+</p>
+<p>
+<script type="math/tex"> \frac{d\phi}{d\tau}</script>, <script type="math/tex">\frac{d^2\phi}{d\tau^2}</script>
+<script type="math/tex">\approx O(1) </script>
+</p>
+<p><strong>Characteristic time scale</strong> <script type="math/tex">T</script>
+</p>
+<p>
+<script type="math/tex; mode=display"> \dot{\phi} = \frac{d\phi}{dt} = \frac{d\phi}{d\tau} \frac{d\tau}{dt} = \frac{1}{T} \frac{d\phi}{d\tau} </script>
+</p>
+<p>
+<script type="math/tex; mode=display"> \ddot{\phi} = \frac{1}{T^2} \frac{d^2\phi}{d\tau^2} </script>
+</p>
+<p>substitute <script type="math/tex">T\tau</script> for <script type="math/tex">t</script>
+</p>
+<p>
+<script type="math/tex; mode=display"> \frac{mr}{T^2} \frac{d^2\phi}{d\tau^2} = - \frac{b}{T} \frac{d\phi}{d\tau} - mg\sin\phi + mr\omega^2 \sin\phi\cos\phi </script>
+</p>
+<p>
+<script type="math/tex">1/mg</script>
+<script type="math/tex; mode=display"> \Big( \frac{r}{gT^2} \Big) \frac{d^2\phi}{d\tau^2} = - \Big( \frac{b}{mgT} \Big) \frac{d\phi}{d\tau} - \sin\phi + \Big( \frac{r\omega^2}{g} \Big) \sin\phi\cos\phi \tag{3.5.3} </script>
+</p>
+<p>(3)</p>
+<p>
+<script type="math/tex">\frac{r\omega^2}{g}:= \gamma</script>
+</p>
+<p>needed
+<script type="math/tex; mode=display"> \frac{b}{mgT} \approx O(1) \text{and} \frac{r}{gT^2} \ll 1 </script>
+</p>
+<p>
+<script type="math/tex">T := \frac{b}{mg}</script>
+</p>
+<p>
+<script type="math/tex">r/gT^2 \ll 1</script>
+</p>
+<p>
+<script type="math/tex; mode=display"> \frac{r}{g} \Big( \frac{mg}{b} \Big)^2 \ll 1 \tag{3.5.4} </script>
+</p>
+<p>
+<script type="math/tex; mode=display"> b^2 \gg m^2gr </script>
+</p>
+<p>dumping is strong; mass is small </p>
+<p>
+<script type="math/tex; mode=display"> \epsilon := \frac{m^2gr}{b^2} \tag{3.5.5} </script>
+</p>
+<p>(3) becomes
+<script type="math/tex; mode=display"> \epsilon \frac{d^2\phi}{d\tau^2} = -  \frac{d\phi}{d\tau} - \sin\phi + \gamma \sin\phi\cos\phi \tag{3.5.6} </script>
+</p>
+<p>
+<script type="math/tex">\epsilon \rightarrow 0</script>
+</p>
+<p>
+<script type="math/tex; mode=display">
+    \begin{align*}
+        \frac{d\phi}{d\tau} &= f(\phi) \\
+        f(\phi) &:= -\sin\phi + \gamma \sin\phi\cos\phi \\
+        &= \sin\phi (\gamma\cos\phi - 1)
+    \end{align*}
+    \tag{3.5.7}
+</script>
+</p>
 <h2 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <!-- toc -->
 
