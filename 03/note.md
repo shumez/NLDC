@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-07-02 17:44:9
+Modified: 	2019-07-02 18:09:22
 -----
 Copyright (c) 2019 shumez
 -->
@@ -359,6 +359,63 @@ solve \( \cos{\phi^*} = \frac{1}{\gamma} \)
 
 ### 03.05.02. Dimensional Analysis and Scaling
 
+when valid to neglect the inertia term \(mr\ddot{\phi}\) ?
+
+**dimensionless** form ([C.C. Lin and L.A. Segel (1988)][1988_SegelLA_LinCC])
+
+dimentionless time 
+\[ \tau := \frac{t}{T} \]
+
+\( \frac{d\phi}{d\tau}\), \(\frac{d^2\phi}{d\tau^2}\) \(\approx O(1) \)
+
+**Characteristic time scale** \(T\)
+
+\[ \dot{\phi} = \frac{d\phi}{dt} = \frac{d\phi}{d\tau} \frac{d\tau}{dt} = \frac{1}{T} \frac{d\phi}{d\tau} \]
+
+\[ \ddot{\phi} = \frac{1}{T^2} \frac{d^2\phi}{d\tau^2} \]
+
+substitute \(T\tau\) for \(t\)
+
+\[ \frac{mr}{T^2} \frac{d^2\phi}{d\tau^2} = - \frac{b}{T} \frac{d\phi}{d\tau} - mg\sin\phi + mr\omega^2 \sin\phi\cos\phi \]
+
+\(1/mg\)
+\[ \Big( \frac{r}{gT^2} \Big) \frac{d^2\phi}{d\tau^2} = - \Big( \frac{b}{mgT} \Big) \frac{d\phi}{d\tau} - \sin\phi + \Big( \frac{r\omega^2}{g} \Big) \sin\phi\cos\phi \tag{3.5.3} \]
+
+(3)
+
+\(\frac{r\omega^2}{g}:= \gamma\)
+
+needed
+\[ \frac{b}{mgT} \approx O(1) \text{and} \frac{r}{gT^2} \ll 1 \]
+
+\(T := \frac{b}{mg}\)
+
+\(r/gT^2 \ll 1\)  
+
+\[ \frac{r}{g} \Big( \frac{mg}{b} \Big)^2 \ll 1 \tag{3.5.4} \]
+
+\[ b^2 \gg m^2gr \]
+
+
+dumping is strong; mass is small 
+
+\[ \epsilon := \frac{m^2gr}{b^2} \tag{3.5.5} \]
+
+(3) becomes
+\[ \epsilon \frac{d^2\phi}{d\tau^2} = -  \frac{d\phi}{d\tau} - \sin\phi + \gamma \sin\phi\cos\phi \tag{3.5.6} \]
+
+
+\(\epsilon \rightarrow 0\)
+
+\[
+    \begin{align*}
+        \frac{d\phi}{d\tau} &= f(\phi) \\
+        f(\phi) &:= -\sin\phi + \gamma \sin\phi\cos\phi \\
+        &= \sin\phi (\gamma\cos\phi - 1)
+    \end{align*}
+    \tag{3.5.7}
+\]
+
 ##
 <!-- toc -->
 [0300]: #0300_introduction
@@ -390,6 +447,8 @@ solve \( \cos{\phi^*} = \frac{1}{\gamma} \)
 [1990_Manneville]: #example_030202 "Manneville (1990)"
 [1983_Hanken]: #0303 "Hanken (1983)"
 [1988_Eberly_Milonmi]: #030302 "Milonmi and Eberly (1988)"
+
+[1988_SegelLA_LinCC]: https://books.google.co.jp/books/about/Mathematics_Applied_to_Deterministic_Pro.html?id=fCwv7JlIE9IC&redir_esc=y "C.C. Lin and L.A. Segel (1988)"
 
 <!-- fig -->
 [fig030101]: https://raw.githubusercontent.com/shumez/NLDC/master/03/fig/fig030101.png
