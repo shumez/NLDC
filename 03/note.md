@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-06-11 21:12:31
+Modified: 	2019-07-02 17:42:31
 -----
 Copyright (c) 2019 shumez
 -->
@@ -33,6 +33,7 @@ Copyright (c) 2019 shumez
     * [03.04.03. Terminology][030403]
 * [03.05. Overdamped Bead on a Rotating Hoop][0305]
     * [03.05.01. Analysis of the First-Order System][030501]
+    - [03.05.02. Dimensional Analysis and Scaling][030502]
 
 
 ## 03.00. Introduciton
@@ -348,13 +349,15 @@ additional fixed points, if \(\frac{r\omega^2}{g} > 1\)
 
 \[ \phi^* = ± \cos^{-1} \bigg( \frac{g}{r\omega^2} \bigg) \]
 
-introduce param \(\gamma\)
-\(\gamma := \frac{r\omega^2}{g} \)
+introduce param \(\gamma\),  
+\(\gamma = \frac{r\omega^2}{g} \)
 
 solve \( \cos{\phi^*} = \frac{1}{\gamma} \)
 
 [![Fig.3.5.6][fig030506]][fig030506]
 
+
+### 03.05.02. Dimensional Analysis and Scaling
 
 ##
 <!-- toc -->
@@ -379,6 +382,7 @@ solve \( \cos{\phi^*} = \frac{1}{\gamma} \)
 [030403]: #030403_terminology
 [0305]: #0305_overdamped_bead_on_a_rotating_hoop
 [030501]: #030501_analysis_of_the_first-order_system
+[030502]: #030502_dimensional_analysis_and_scaling
 
 <!-- ref -->
 [1983_Holmes_Guckenheimier]: #030102 "Guckenheimer and Holmes (1983)"
