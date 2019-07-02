@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/NLDC/03
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-29 19:27:0
-Modified: 	2019-07-02 17:42:31
+Modified: 	2019-07-02 17:44:9
 -----
 Copyright (c) 2019 shumez
 -->
@@ -12,27 +12,27 @@ Copyright (c) 2019 shumez
 
 ## Contents
 
-* [03.00. Introduction][0300]
-* [03.01. Saddle-Node Bifurcation][0301]
-    * [03.01.01. Graphical Conventions][030101]
-        * [03.01.01.01 Terminology][03010101]
-    * [Example 03.01.01.][ex030101]
-    * [Example 03.01.02.][ex030102]
-    * [03.01.02. Normal Forms][030102]
-* [03.02. Transcritical Bifurcation][0302]
-    * [Example 03.02.01.][ex030201]
-    * [Example 03.02.02.][ex030202]
-* [03.03. Laser Threshold][0303]
-    * [03.03.01. Physical Background][030301]
-    * [03.03.02. Model][030302]
-* [03.04. Pitchfork Bifurcation][0304]
-    * [03.04.01. Supercritical Pitchfork Bifurcation][030401]
-    * [Example 03.04.01.][ex030401]
-    * [Example 03.04.02.][ex030402]
-    * [03.04.02. Subcritical Pitchfork Bifurcation][030402]
-    * [03.04.03. Terminology][030403]
-* [03.05. Overdamped Bead on a Rotating Hoop][0305]
-    * [03.05.01. Analysis of the First-Order System][030501]
+- [03.00. Introduction][0300]
+- [03.01. Saddle-Node Bifurcation][0301]
+    - [03.01.01. Graphical Conventions][030101]
+        - [03.01.01.01 Terminology][03010101]
+    - [Example 03.01.01.][ex030101]
+    - [Example 03.01.02.][ex030102]
+    - [03.01.02. Normal Forms][030102]
+- [03.02. Transcritical Bifurcation][0302]
+    - [Example 03.02.01.][ex030201]
+    - [Example 03.02.02.][ex030202]
+- [03.03. Laser Threshold][0303]
+    - [03.03.01. Physical Background][030301]
+    - [03.03.02. Model][030302]
+- [03.04. Pitchfork Bifurcation][0304]
+    - [03.04.01. Supercritical Pitchfork Bifurcation][030401]
+    - [Example 03.04.01.][ex030401]
+    - [Example 03.04.02.][ex030402]
+    - [03.04.02. Subcritical Pitchfork Bifurcation][030402]
+    - [03.04.03. Terminology][030403]
+- [03.05. Overdamped Bead on a Rotating Hoop][0305]
+    - [03.05.01. Analysis of the First-Order System][030501]
     - [03.05.02. Dimensional Analysis and Scaling][030502]
 
 
